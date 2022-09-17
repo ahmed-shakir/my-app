@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_RadioButtonList">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_ButtonList">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_RadioButtonList-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_RadioButtonList">
+        <xs:attribute name="model" type="xs:string"/>
+        <xs:attribute name="multiSelectModel" type="xs:string"/>
+        <xs:attribute name="toggle" type="xs:string"/>
+        <xs:attribute name="buttonUiid" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>

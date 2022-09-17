@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+  <xs:complexType name="se_supernovait_my_NotificationPage">
+    <xs:complexContent>
+      <xs:extension base="se_supernovait_my_AbstractNotificationPage">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="se_supernovait_my_NotificationPage-impl">
+    <xs:complexContent>
+      <xs:extension base="se_supernovait_my_NotificationPage"/>
+    </xs:complexContent>
+  </xs:complexType>

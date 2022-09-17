@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_rad_ui_entityviews_EntityListView">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_AbstractEntityView">
+        <xs:attribute name="animateInsertions" type="xs:string"/>
+        <xs:attribute name="bind-animateInsertions" type="xs:string"/>
+        <xs:attribute name="animateRemovals" type="xs:string"/>
+        <xs:attribute name="bind-animateRemovals" type="xs:string"/>
+        <xs:attribute name="listCellRenderer" type="xs:string"/>
+        <xs:attribute name="bind-listCellRenderer" type="xs:string"/>
+        <xs:attribute name="listLayout" type="xs:string"/>
+        <xs:attribute name="bind-listLayout" type="xs:string"/>
+        <xs:attribute name="scrollableY" type="xs:string"/>
+        <xs:attribute name="bind-scrollableY" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_rad_ui_entityviews_EntityListView-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_entityviews_EntityListView">
+        <xs:attribute name="columns" type="xs:string"/>
+        <xs:attribute name="landscapeColumns" type="xs:string"/>
+        <xs:attribute name="refreshAction" type="xs:string"/>
+        <xs:attribute name="loadMoreAction" type="xs:string"/>
+        <xs:attribute name="addAction" type="xs:string"/>
+        <xs:attribute name="selectAction" type="xs:string"/>
+        <xs:attribute name="removeAction" type="xs:string"/>
+        <xs:attribute name="renderer" type="xs:string"/>
+        <xs:attribute name="provider" type="xs:string"/>
+        <xs:attribute name="model" type="xs:string"/>
+        <xs:attribute name="node" type="xs:string"/>
+        <xs:attribute name="parentNode" type="xs:string"/>
+        <xs:attribute name="listViewFactory" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>

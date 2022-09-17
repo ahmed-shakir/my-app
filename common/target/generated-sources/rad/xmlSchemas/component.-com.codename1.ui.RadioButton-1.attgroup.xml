@@ -1,0 +1,15 @@
+  <xs:attributeGroup name="component_-com_codename1_ui_RadioButton-1">
+    <xs:attribute name="component.selectedImpl" type="xs:string"/>
+    <xs:attribute name="bind-component.selectedImpl" type="xs:string"/>
+    <xs:attribute name="component.selected" type="xs:string"/>
+    <xs:attribute name="bind-component.selected" type="xs:string"/>
+    <xs:attribute name="component.unselectAllowed" type="xs:string"/>
+    <xs:attribute name="bind-component.unselectAllowed" type="xs:string"/>
+    <xs:attribute name="component.buttonGroup" type="xs:string"/>
+    <xs:attribute name="bind-component.buttonGroup" type="xs:string"/>
+    <xs:attribute name="component.group" type="xs:string"/>
+    <xs:attribute name="bind-component.group" type="xs:string"/>
+    <xs:attribute name="component.oppositeSide" type="xs:string"/>
+    <xs:attribute name="bind-component.oppositeSide" type="xs:string"/>
+    <xs:attributeGroup ref="component_-com_codename1_ui_Button-1"/>
+  </xs:attributeGroup>

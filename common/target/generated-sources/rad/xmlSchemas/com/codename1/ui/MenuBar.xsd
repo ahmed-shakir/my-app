@@ -1,0 +1,31 @@
+====
+requireAttributeGroup menuStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup menuStyle.:java.lang.Object:1
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_MenuBar">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="defaultCommand" type="xs:string"/>
+        <xs:attribute name="bind-defaultCommand" type="xs:string"/>
+        <xs:attribute name="clearCommand" type="xs:string"/>
+        <xs:attribute name="bind-clearCommand" type="xs:string"/>
+        <xs:attribute name="backCommand" type="xs:string"/>
+        <xs:attribute name="bind-backCommand" type="xs:string"/>
+        <xs:attribute name="selectCommand" type="xs:string"/>
+        <xs:attribute name="bind-selectCommand" type="xs:string"/>
+        <xs:attribute name="unselectedStyle" type="xs:string"/>
+        <xs:attribute name="bind-unselectedStyle" type="xs:string"/>
+        <xs:attribute name="menuCellRenderer" type="xs:string"/>
+        <xs:attribute name="bind-menuCellRenderer" type="xs:string"/>
+        <xs:attributeGroup ref="menuStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="minimizeOnBack" type="xs:string"/>
+        <xs:attribute name="bind-minimizeOnBack" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_MenuBar-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_MenuBar"/>
+    </xs:complexContent>
+  </xs:complexType>

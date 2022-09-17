@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_rad_ui_PropertyView">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="nextFocusLeft" type="xs:string"/>
+        <xs:attribute name="bind-nextFocusLeft" type="xs:string"/>
+        <xs:attribute name="nextFocusRight" type="xs:string"/>
+        <xs:attribute name="bind-nextFocusRight" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_rad_ui_PropertyView-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_PropertyView"/>
+    </xs:complexContent>
+  </xs:complexType>

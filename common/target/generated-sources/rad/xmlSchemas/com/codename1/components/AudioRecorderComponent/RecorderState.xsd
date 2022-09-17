@@ -1,0 +1,12 @@
+  <xs:simpleType name="com_codename1_components_AudioRecorderComponent_RecorderState">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Initializing" />
+      <xs:enumeration value="Recording" />
+      <xs:enumeration value="Paused" />
+      <xs:enumeration value="Pending" />
+      <xs:enumeration value="Canceled" />
+      <xs:enumeration value="Accepted" />
+      <xs:enumeration value="Initialized" />
+      <xs:enumeration value="NotInitialized" />
+    </xs:restriction>
+  </xs:simpleType>

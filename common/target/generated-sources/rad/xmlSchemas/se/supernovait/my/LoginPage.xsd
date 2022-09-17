@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+  <xs:complexType name="se_supernovait_my_LoginPage">
+    <xs:complexContent>
+      <xs:extension base="se_supernovait_my_AbstractLoginPage">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="se_supernovait_my_LoginPage-impl">
+    <xs:complexContent>
+      <xs:extension base="se_supernovait_my_LoginPage"/>
+    </xs:complexContent>
+  </xs:complexType>

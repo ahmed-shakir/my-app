@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_Tabs">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="tabTextPosition" type="xs:string"/>
+        <xs:attribute name="bind-tabTextPosition" type="xs:string"/>
+        <xs:attribute name="tabPlacement" type="xs:string"/>
+        <xs:attribute name="bind-tabPlacement" type="xs:string"/>
+        <xs:attribute name="selectedIndex" type="xs:string"/>
+        <xs:attribute name="bind-selectedIndex" type="xs:string"/>
+        <xs:attribute name="swipeActivated" type="xs:string"/>
+        <xs:attribute name="bind-swipeActivated" type="xs:string"/>
+        <xs:attribute name="changeTabOnFocus" type="xs:string"/>
+        <xs:attribute name="bind-changeTabOnFocus" type="xs:string"/>
+        <xs:attribute name="changeTabContainerStyleOnFocus" type="xs:string"/>
+        <xs:attribute name="bind-changeTabContainerStyleOnFocus" type="xs:string"/>
+        <xs:attribute name="tabsContentGap" type="xs:string"/>
+        <xs:attribute name="bind-tabsContentGap" type="xs:string"/>
+        <xs:attribute name="tabsLayout" type="xs:string"/>
+        <xs:attribute name="bind-tabsLayout" type="xs:string"/>
+        <xs:attribute name="tabUIID" type="xs:string"/>
+        <xs:attribute name="bind-tabUIID" type="xs:string"/>
+        <xs:attribute name="eagerSwipeMode" type="xs:string"/>
+        <xs:attribute name="bind-eagerSwipeMode" type="xs:string"/>
+        <xs:attribute name="animateTabSelection" type="xs:string"/>
+        <xs:attribute name="bind-animateTabSelection" type="xs:string"/>
+        <xs:attribute name="swipeOnXAxis" type="xs:string"/>
+        <xs:attribute name="bind-swipeOnXAxis" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_Tabs-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Tabs"/>
+    </xs:complexContent>
+  </xs:complexType>

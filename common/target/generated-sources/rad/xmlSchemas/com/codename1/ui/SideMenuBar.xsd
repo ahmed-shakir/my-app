@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_SideMenuBar">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_MenuBar">
+        <xs:attribute name="backCommand" type="xs:string"/>
+        <xs:attribute name="bind-backCommand" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_SideMenuBar-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_SideMenuBar"/>
+    </xs:complexContent>
+  </xs:complexType>

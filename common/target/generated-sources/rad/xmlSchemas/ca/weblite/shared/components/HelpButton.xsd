@@ -1,0 +1,21 @@
+====
+require ca.weblite.shared.components.HelpButton.HelpButtonType
+====
+<?xml version="1.0"?>
+  <xs:complexType name="ca_weblite_shared_components_HelpButton">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Button">
+        <xs:attribute name="helpText" type="xs:string"/>
+        <xs:attribute name="bind-helpText" type="xs:string"/>
+        <xs:attribute name="type" type="ca_weblite_shared_components_HelpButton_HelpButtonType"/>
+        <xs:attribute name="bind-type" type="xs:string"/>
+        <xs:attribute name="popupPreferredW" type="xs:string"/>
+        <xs:attribute name="bind-popupPreferredW" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ca_weblite_shared_components_HelpButton-impl">
+    <xs:complexContent>
+      <xs:extension base="ca_weblite_shared_components_HelpButton"/>
+    </xs:complexContent>
+  </xs:complexType>

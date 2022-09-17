@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_InfiniteProgress">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Component">
+        <xs:attribute name="defaultMaterialDesignMode" type="xs:string"/>
+        <xs:attribute name="bind-defaultMaterialDesignMode" type="xs:string"/>
+        <xs:attribute name="defaultMaterialDesignColor" type="xs:string"/>
+        <xs:attribute name="bind-defaultMaterialDesignColor" type="xs:string"/>
+        <xs:attribute name="animation" type="xs:string"/>
+        <xs:attribute name="bind-animation" type="xs:string"/>
+        <xs:attribute name="tintColor" type="xs:string"/>
+        <xs:attribute name="bind-tintColor" type="xs:string"/>
+        <xs:attribute name="tickCount" type="xs:string"/>
+        <xs:attribute name="bind-tickCount" type="xs:string"/>
+        <xs:attribute name="angleIncrease" type="xs:string"/>
+        <xs:attribute name="bind-angleIncrease" type="xs:string"/>
+        <xs:attribute name="materialDesignMode" type="xs:string"/>
+        <xs:attribute name="bind-materialDesignMode" type="xs:string"/>
+        <xs:attribute name="materialDesignColor" type="xs:string"/>
+        <xs:attribute name="bind-materialDesignColor" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_InfiniteProgress-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_InfiniteProgress"/>
+    </xs:complexContent>
+  </xs:complexType>

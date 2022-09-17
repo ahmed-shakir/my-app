@@ -1,0 +1,23 @@
+  <xs:attributeGroup name="component_-com_codename1_components_Switch-1">
+    <xs:attribute name="component.value" type="xs:string"/>
+    <xs:attribute name="bind-component.value" type="xs:string"/>
+    <xs:attribute name="component.componentState" type="xs:string"/>
+    <xs:attribute name="bind-component.componentState" type="xs:string"/>
+    <xs:attribute name="component.thumbOnImage" type="xs:string"/>
+    <xs:attribute name="bind-component.thumbOnImage" type="xs:string"/>
+    <xs:attribute name="component.thumbOffImage" type="xs:string"/>
+    <xs:attribute name="bind-component.thumbOffImage" type="xs:string"/>
+    <xs:attribute name="component.thumbDisabledImage" type="xs:string"/>
+    <xs:attribute name="bind-component.thumbDisabledImage" type="xs:string"/>
+    <xs:attribute name="component.trackOnImage" type="xs:string"/>
+    <xs:attribute name="bind-component.trackOnImage" type="xs:string"/>
+    <xs:attribute name="component.trackOffImage" type="xs:string"/>
+    <xs:attribute name="bind-component.trackOffImage" type="xs:string"/>
+    <xs:attribute name="component.trackDisabledImage" type="xs:string"/>
+    <xs:attribute name="bind-component.trackDisabledImage" type="xs:string"/>
+    <xs:attribute name="component.autoRelease" type="xs:string"/>
+    <xs:attribute name="bind-component.autoRelease" type="xs:string"/>
+    <xs:attribute name="component.releaseRadius" type="xs:string"/>
+    <xs:attribute name="bind-component.releaseRadius" type="xs:string"/>
+    <xs:attributeGroup ref="component_-com_codename1_ui_Component-1"/>
+  </xs:attributeGroup>

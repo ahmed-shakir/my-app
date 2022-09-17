@@ -1,0 +1,24 @@
+====
+requireAttributeGroup component.:com.codename1.ui.spinner.Picker:1
+requireAttributeGroup component.style.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup component.:com.codename1.ui.Button:1
+require com.codename1.rad.ui.builders.PropertyViewBuilder.DateFormatterEnum
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_rad_propertyviews_PickerPropertyView">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_PropertyView">
+        <xs:attributeGroup ref="component_-com_codename1_ui_spinner_Picker-1" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_rad_propertyviews_PickerPropertyView-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_propertyviews_PickerPropertyView">
+        <xs:attribute name="picker" type="xs:string"/>
+        <xs:attribute name="tag" type="xs:string"/>
+        <xs:attribute name="dateFormat" type="com_codename1_rad_ui_builders_PropertyViewBuilder_DateFormatterEnum"/>
+        <xs:attribute name="entity" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>

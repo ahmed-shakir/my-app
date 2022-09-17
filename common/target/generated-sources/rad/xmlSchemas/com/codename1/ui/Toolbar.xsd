@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_Toolbar">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="centeredDefault" type="xs:string"/>
+        <xs:attribute name="bind-centeredDefault" type="xs:string"/>
+        <xs:attribute name="onTopSideMenu" type="xs:string"/>
+        <xs:attribute name="bind-onTopSideMenu" type="xs:string"/>
+        <xs:attribute name="enableSideMenuSwipe" type="xs:string"/>
+        <xs:attribute name="bind-enableSideMenuSwipe" type="xs:string"/>
+        <xs:attribute name="globalToolbar" type="xs:string"/>
+        <xs:attribute name="bind-globalToolbar" type="xs:string"/>
+        <xs:attribute name="title" type="xs:string"/>
+        <xs:attribute name="bind-title" type="xs:string"/>
+        <xs:attribute name="titleCentered" type="xs:string"/>
+        <xs:attribute name="bind-titleCentered" type="xs:string"/>
+        <xs:attribute name="permanentSideMenu" type="xs:string"/>
+        <xs:attribute name="bind-permanentSideMenu" type="xs:string"/>
+        <xs:attribute name="titleComponent" type="xs:string"/>
+        <xs:attribute name="bind-titleComponent" type="xs:string"/>
+        <xs:attribute name="backCommand" type="xs:string"/>
+        <xs:attribute name="bind-backCommand" type="xs:string"/>
+        <xs:attribute name="componentToSideMenuSouth" type="xs:string"/>
+        <xs:attribute name="bind-componentToSideMenuSouth" type="xs:string"/>
+        <xs:attribute name="componentToRightSideMenuSouth" type="xs:string"/>
+        <xs:attribute name="bind-componentToRightSideMenuSouth" type="xs:string"/>
+        <xs:attribute name="scrollOffUponContentPane" type="xs:string"/>
+        <xs:attribute name="bind-scrollOffUponContentPane" type="xs:string"/>
+        <xs:attribute name="rightSideMenuCmdsAlignedToLeft" type="xs:string"/>
+        <xs:attribute name="bind-rightSideMenuCmdsAlignedToLeft" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_Toolbar-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Toolbar"/>
+    </xs:complexContent>
+  </xs:complexType>

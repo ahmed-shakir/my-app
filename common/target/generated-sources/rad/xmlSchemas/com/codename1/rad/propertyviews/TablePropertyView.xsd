@@ -1,0 +1,24 @@
+====
+requireAttributeGroup component.:ca.weblite.shared.components.table.Table:1
+requireAttributeGroup component.:com.codename1.ui.Container:1
+require ca.weblite.shared.components.table.SelectionMode
+require com.codename1.rad.ui.builders.PropertyViewBuilder.DateFormatterEnum
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_rad_propertyviews_TablePropertyView">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_PropertyView">
+        <xs:attributeGroup ref="component_-ca_weblite_shared_components_table_Table-1" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_rad_propertyviews_TablePropertyView-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_propertyviews_TablePropertyView">
+        <xs:attribute name="table" type="xs:string"/>
+        <xs:attribute name="tag" type="xs:string"/>
+        <xs:attribute name="dateFormat" type="com_codename1_rad_ui_builders_PropertyViewBuilder_DateFormatterEnum"/>
+        <xs:attribute name="entity" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>

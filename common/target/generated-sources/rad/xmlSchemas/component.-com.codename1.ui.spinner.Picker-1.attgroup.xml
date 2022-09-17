@@ -1,0 +1,40 @@
+  <xs:attributeGroup name="component_-com_codename1_ui_spinner_Picker-1">
+    <xs:attribute name="component.defaultUseLightweightPopup" type="xs:string"/>
+    <xs:attribute name="bind-component.defaultUseLightweightPopup" type="xs:string"/>
+    <xs:attribute name="component.startDate" type="xs:string"/>
+    <xs:attribute name="bind-component.startDate" type="xs:string"/>
+    <xs:attribute name="component.endDate" type="xs:string"/>
+    <xs:attribute name="bind-component.endDate" type="xs:string"/>
+    <xs:attribute name="component.useLightweightPopup" type="xs:string"/>
+    <xs:attribute name="bind-component.useLightweightPopup" type="xs:string"/>
+    <xs:attribute name="component.type" type="xs:string"/>
+    <xs:attribute name="bind-component.type" type="xs:string"/>
+    <xs:attribute name="component.date" type="xs:string"/>
+    <xs:attribute name="bind-component.date" type="xs:string"/>
+    <xs:attribute name="component.strings" type="xs:string"/>
+    <xs:attribute name="bind-component.strings" type="xs:string"/>
+    <xs:attribute name="component.selectedString" type="xs:string"/>
+    <xs:attribute name="bind-component.selectedString" type="xs:string"/>
+    <xs:attribute name="component.selectedStringIndex" type="xs:string"/>
+    <xs:attribute name="bind-component.selectedStringIndex" type="xs:string"/>
+    <xs:attribute name="component.time" type="xs:string"/>
+    <xs:attribute name="bind-component.time" type="xs:string"/>
+    <xs:attribute name="component.duration" type="xs:string"/>
+    <xs:attribute name="bind-component.duration" type="xs:string"/>
+    <xs:attribute name="component.minuteStep" type="xs:string"/>
+    <xs:attribute name="bind-component.minuteStep" type="xs:string"/>
+    <xs:attribute name="component.showMeridiem" type="xs:string"/>
+    <xs:attribute name="bind-component.showMeridiem" type="xs:string"/>
+    <xs:attribute name="component.renderingPrototype" type="xs:string"/>
+    <xs:attribute name="bind-component.renderingPrototype" type="xs:string"/>
+    <xs:attribute name="component.formatter" type="xs:string"/>
+    <xs:attribute name="bind-component.formatter" type="xs:string"/>
+    <xs:attribute name="component.preferredPopupWidth" type="xs:string"/>
+    <xs:attribute name="bind-component.preferredPopupWidth" type="xs:string"/>
+    <xs:attribute name="component.preferredPopupHeight" type="xs:string"/>
+    <xs:attribute name="bind-component.preferredPopupHeight" type="xs:string"/>
+    <xs:attributeGroup ref="component_style_-com_codename1_ui_plaf_Style-0"/>
+    <xs:attribute name="component.suppressPaint" type="xs:string"/>
+    <xs:attribute name="bind-component.suppressPaint" type="xs:string"/>
+    <xs:attributeGroup ref="component_-com_codename1_ui_Button-1"/>
+  </xs:attributeGroup>

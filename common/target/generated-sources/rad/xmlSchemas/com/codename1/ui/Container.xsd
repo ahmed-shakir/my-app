@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_Container">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Component">
+        <xs:attribute name="surface" type="xs:string"/>
+        <xs:attribute name="bind-surface" type="xs:string"/>
+        <xs:attribute name="uimanager" type="xs:string"/>
+        <xs:attribute name="bind-uimanager" type="xs:string"/>
+        <xs:attribute name="leadComponent" type="xs:string"/>
+        <xs:attribute name="bind-leadComponent" type="xs:string"/>
+        <xs:attribute name="layout" type="xs:string"/>
+        <xs:attribute name="bind-layout" type="xs:string"/>
+        <xs:attribute name="shouldLayout" type="xs:string"/>
+        <xs:attribute name="bind-shouldLayout" type="xs:string"/>
+        <xs:attribute name="shouldCalcPreferredSize" type="xs:string"/>
+        <xs:attribute name="bind-shouldCalcPreferredSize" type="xs:string"/>
+        <xs:attribute name="allowEnableLayoutOnPaint" type="xs:string"/>
+        <xs:attribute name="bind-allowEnableLayoutOnPaint" type="xs:string"/>
+        <xs:attribute name="safeArea" type="xs:string"/>
+        <xs:attribute name="bind-safeArea" type="xs:string"/>
+        <xs:attribute name="safeAreaRoot" type="xs:string"/>
+        <xs:attribute name="bind-safeAreaRoot" type="xs:string"/>
+        <xs:attribute name="scrollableX" type="xs:string"/>
+        <xs:attribute name="bind-scrollableX" type="xs:string"/>
+        <xs:attribute name="scrollableY" type="xs:string"/>
+        <xs:attribute name="bind-scrollableY" type="xs:string"/>
+        <xs:attribute name="scrollable" type="xs:string"/>
+        <xs:attribute name="bind-scrollable" type="xs:string"/>
+        <xs:attribute name="cellRenderer" type="xs:string"/>
+        <xs:attribute name="bind-cellRenderer" type="xs:string"/>
+        <xs:attribute name="scrollIncrement" type="xs:string"/>
+        <xs:attribute name="bind-scrollIncrement" type="xs:string"/>
+        <xs:attribute name="focusLead" type="xs:string"/>
+        <xs:attribute name="bind-focusLead" type="xs:string"/>
+        <xs:attribute name="enabled" type="xs:string"/>
+        <xs:attribute name="bind-enabled" type="xs:string"/>
+        <xs:attribute name="lightweightMode" type="xs:string"/>
+        <xs:attribute name="bind-lightweightMode" type="xs:string"/>
+        <xs:attribute name="blockFocus" type="xs:string"/>
+        <xs:attribute name="bind-blockFocus" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_Container-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_TextField">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_TextArea">
+        <xs:attribute name="useNativeTextInput" type="xs:string"/>
+        <xs:attribute name="bind-useNativeTextInput" type="xs:string"/>
+        <xs:attribute name="clearText" type="xs:string"/>
+        <xs:attribute name="bind-clearText" type="xs:string"/>
+        <xs:attribute name="t9text" type="xs:string"/>
+        <xs:attribute name="bind-t9text" type="xs:string"/>
+        <xs:attribute name="enableInputScroll" type="xs:string"/>
+        <xs:attribute name="bind-enableInputScroll" type="xs:string"/>
+        <xs:attribute name="commitTimeout" type="xs:string"/>
+        <xs:attribute name="bind-commitTimeout" type="xs:string"/>
+        <xs:attribute name="inputMode" type="xs:string"/>
+        <xs:attribute name="bind-inputMode" type="xs:string"/>
+        <xs:attribute name="inputModeOrder" type="xs:string"/>
+        <xs:attribute name="bind-inputModeOrder" type="xs:string"/>
+        <xs:attribute name="defaultInputModeOrder" type="xs:string"/>
+        <xs:attribute name="bind-defaultInputModeOrder" type="xs:string"/>
+        <xs:attribute name="cursorPosition" type="xs:string"/>
+        <xs:attribute name="bind-cursorPosition" type="xs:string"/>
+        <xs:attribute name="text" type="xs:string"/>
+        <xs:attribute name="bind-text" type="xs:string"/>
+        <xs:attribute name="qwertyInput" type="xs:string"/>
+        <xs:attribute name="bind-qwertyInput" type="xs:string"/>
+        <xs:attribute name="symbolTable" type="xs:string"/>
+        <xs:attribute name="bind-symbolTable" type="xs:string"/>
+        <xs:attribute name="editable" type="xs:string"/>
+        <xs:attribute name="bind-editable" type="xs:string"/>
+        <xs:attribute name="cursorBlinkTimeOn" type="xs:string"/>
+        <xs:attribute name="bind-cursorBlinkTimeOn" type="xs:string"/>
+        <xs:attribute name="cursorBlinkTimeOff" type="xs:string"/>
+        <xs:attribute name="bind-cursorBlinkTimeOff" type="xs:string"/>
+        <xs:attribute name="useSoftkeys" type="xs:string"/>
+        <xs:attribute name="bind-useSoftkeys" type="xs:string"/>
+        <xs:attribute name="replaceMenu" type="xs:string"/>
+        <xs:attribute name="bind-replaceMenu" type="xs:string"/>
+        <xs:attribute name="replaceMenuDefault" type="xs:string"/>
+        <xs:attribute name="bind-replaceMenuDefault" type="xs:string"/>
+        <xs:attribute name="qwertyAutoDetect" type="xs:string"/>
+        <xs:attribute name="bind-qwertyAutoDetect" type="xs:string"/>
+        <xs:attribute name="qwertyDevice" type="xs:string"/>
+        <xs:attribute name="bind-qwertyDevice" type="xs:string"/>
+        <xs:attribute name="defaultChangeInputModeKey" type="xs:string"/>
+        <xs:attribute name="bind-defaultChangeInputModeKey" type="xs:string"/>
+        <xs:attribute name="defaultSymbolDialogKey" type="xs:string"/>
+        <xs:attribute name="bind-defaultSymbolDialogKey" type="xs:string"/>
+        <xs:attribute name="overwriteMode" type="xs:string"/>
+        <xs:attribute name="bind-overwriteMode" type="xs:string"/>
+        <xs:attribute name="leftAndRightEditingTrigger" type="xs:string"/>
+        <xs:attribute name="bind-leftAndRightEditingTrigger" type="xs:string"/>
+        <xs:attribute name="alignment" type="xs:string"/>
+        <xs:attribute name="bind-alignment" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_TextField-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_TextField"/>
+    </xs:complexContent>
+  </xs:complexType>

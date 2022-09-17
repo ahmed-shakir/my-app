@@ -1,0 +1,249 @@
+====
+requireAttributeGroup selectedStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup unselectedStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup allStyles.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup parent.:com.codename1.ui.Container:1
+requireAttributeGroup disabledStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup componentForm.:com.codename1.ui.Form:1
+requireAttributeGroup style.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup pressedStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup disabledStyle.:java.lang.Object:1
+requireAttributeGroup componentForm.componentForm.:com.codename1.ui.Form:0
+requireAttributeGroup componentForm.menuStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup pressedStyle.:java.lang.Object:1
+requireAttributeGroup componentForm.titleStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup parent.:com.codename1.ui.Component:1
+requireAttributeGroup componentForm.:com.codename1.ui.Container:1
+requireAttributeGroup unselectedStyle.:java.lang.Object:1
+requireAttributeGroup selectedStyle.:java.lang.Object:1
+requireAttributeGroup allStyles.:java.lang.Object:1
+requireAttributeGroup componentForm.titleStyle.:java.lang.Object:0
+requireAttributeGroup componentForm.componentForm.:com.codename1.ui.Container:0
+requireAttributeGroup parent.allStyles.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup parent.unselectedStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup parent.:java.lang.Object:1
+requireAttributeGroup parent.parent.:com.codename1.ui.Container:0
+requireAttributeGroup parent.style.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup parent.pressedStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup parent.componentForm.:com.codename1.ui.Form:0
+requireAttributeGroup componentForm.:com.codename1.ui.Component:1
+requireAttributeGroup componentForm.menuStyle.:java.lang.Object:0
+requireAttributeGroup parent.selectedStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup parent.disabledStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup parent.pressedStyle.:java.lang.Object:0
+requireAttributeGroup componentForm.:java.lang.Object:1
+requireAttributeGroup parent.parent.:com.codename1.ui.Component:0
+requireAttributeGroup componentForm.parent.:com.codename1.ui.Container:0
+requireAttributeGroup parent.selectedStyle.:java.lang.Object:0
+requireAttributeGroup componentForm.pressedStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup componentForm.componentForm.:com.codename1.ui.Component:0
+requireAttributeGroup componentForm.disabledStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup componentForm.style.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup parent.allStyles.:java.lang.Object:0
+requireAttributeGroup parent.unselectedStyle.:java.lang.Object:0
+requireAttributeGroup parent.style.:java.lang.Object:0
+requireAttributeGroup componentForm.selectedStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup componentForm.unselectedStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup parent.componentForm.:com.codename1.ui.Container:0
+requireAttributeGroup parent.disabledStyle.:java.lang.Object:0
+requireAttributeGroup componentForm.allStyles.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup parent.parent.:java.lang.Object:0
+requireAttributeGroup componentForm.disabledStyle.:java.lang.Object:0
+requireAttributeGroup parent.componentForm.:com.codename1.ui.Component:0
+requireAttributeGroup componentForm.pressedStyle.:java.lang.Object:0
+requireAttributeGroup componentForm.unselectedStyle.:java.lang.Object:0
+requireAttributeGroup componentForm.componentForm.:java.lang.Object:0
+requireAttributeGroup componentForm.allStyles.:java.lang.Object:0
+requireAttributeGroup componentForm.selectedStyle.:java.lang.Object:0
+requireAttributeGroup componentForm.style.:java.lang.Object:0
+requireAttributeGroup componentForm.parent.:com.codename1.ui.Component:0
+requireAttributeGroup componentForm.parent.:java.lang.Object:0
+requireAttributeGroup parent.componentForm.:java.lang.Object:0
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_Component">
+    <xs:complexContent>
+      <xs:extension base="java_lang_Object">
+        <xs:attribute name="bind-focus" type="xs:string"/>
+        <xs:attribute name="editingDelegate" type="xs:string"/>
+        <xs:attribute name="bind-editingDelegate" type="xs:string"/>
+        <xs:attribute name="cursor" type="xs:string"/>
+        <xs:attribute name="bind-cursor" type="xs:string"/>
+        <xs:attribute name="sameSize" type="xs:string"/>
+        <xs:attribute name="bind-sameSize" type="xs:string"/>
+        <xs:attribute name="sameWidth" type="xs:string"/>
+        <xs:attribute name="bind-sameWidth" type="xs:string"/>
+        <xs:attributeGroup ref="allStyles_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="sameHeight" type="xs:string"/>
+        <xs:attribute name="bind-sameHeight" type="xs:string"/>
+        <xs:attribute name="surface" type="xs:string"/>
+        <xs:attribute name="bind-surface" type="xs:string"/>
+        <xs:attribute name="dirtyRegion" type="xs:string"/>
+        <xs:attribute name="bind-dirtyRegion" type="xs:string"/>
+        <xs:attribute name="visible" type="xs:string"/>
+        <xs:attribute name="bind-visible" type="xs:string"/>
+        <xs:attribute name="opaque" type="xs:string"/>
+        <xs:attribute name="bind-opaque" type="xs:string"/>
+        <xs:attribute name="x" type="xs:string"/>
+        <xs:attribute name="bind-x" type="xs:string"/>
+        <xs:attribute name="y" type="xs:string"/>
+        <xs:attribute name="bind-y" type="xs:string"/>
+        <xs:attribute name="preferredSize" type="xs:string"/>
+        <xs:attribute name="bind-preferredSize" type="xs:string"/>
+        <xs:attribute name="preferredSizeStr" type="xs:string"/>
+        <xs:attribute name="bind-preferredSizeStr" type="xs:string"/>
+        <xs:attribute name="scrollSize" type="xs:string"/>
+        <xs:attribute name="bind-scrollSize" type="xs:string"/>
+        <xs:attribute name="preferredW" type="xs:string"/>
+        <xs:attribute name="bind-preferredW" type="xs:string"/>
+        <xs:attribute name="preferredH" type="xs:string"/>
+        <xs:attribute name="bind-preferredH" type="xs:string"/>
+        <xs:attribute name="width" type="xs:string"/>
+        <xs:attribute name="bind-width" type="xs:string"/>
+        <xs:attribute name="height" type="xs:string"/>
+        <xs:attribute name="bind-height" type="xs:string"/>
+        <xs:attribute name="size" type="xs:string"/>
+        <xs:attribute name="bind-size" type="xs:string"/>
+        <xs:attribute name="uiid" type="xs:string"/>
+        <xs:attribute name="bind-uiid" type="xs:string"/>
+        <xs:attribute name="inlineAllStyles" type="xs:string"/>
+        <xs:attribute name="bind-inlineAllStyles" type="xs:string"/>
+        <xs:attribute name="inlineUnselectedStyles" type="xs:string"/>
+        <xs:attribute name="bind-inlineUnselectedStyles" type="xs:string"/>
+        <xs:attribute name="inlineSelectedStyles" type="xs:string"/>
+        <xs:attribute name="bind-inlineSelectedStyles" type="xs:string"/>
+        <xs:attribute name="inlineDisabledStyles" type="xs:string"/>
+        <xs:attribute name="bind-inlineDisabledStyles" type="xs:string"/>
+        <xs:attribute name="inlinePressedStyles" type="xs:string"/>
+        <xs:attribute name="bind-inlinePressedStyles" type="xs:string"/>
+        <xs:attributeGroup ref="parent_-com_codename1_ui_Container-1" />
+        <xs:attribute name="parent" type="xs:string"/>
+        <xs:attribute name="bind-parent" type="xs:string"/>
+        <xs:attribute name="owner" type="xs:string"/>
+        <xs:attribute name="bind-owner" type="xs:string"/>
+        <xs:attribute name="selectCommandText" type="xs:string"/>
+        <xs:attribute name="bind-selectCommandText" type="xs:string"/>
+        <xs:attribute name="labelForComponent" type="xs:string"/>
+        <xs:attribute name="bind-labelForComponent" type="xs:string"/>
+        <xs:attribute name="scrollX" type="xs:string"/>
+        <xs:attribute name="bind-scrollX" type="xs:string"/>
+        <xs:attribute name="scrollY" type="xs:string"/>
+        <xs:attribute name="bind-scrollY" type="xs:string"/>
+        <xs:attribute name="focusable" type="xs:string"/>
+        <xs:attribute name="bind-focusable" type="xs:string"/>
+        <xs:attribute name="tabIndex" type="xs:string"/>
+        <xs:attribute name="bind-tabIndex" type="xs:string"/>
+        <xs:attribute name="preferredTabIndex" type="xs:string"/>
+        <xs:attribute name="bind-preferredTabIndex" type="xs:string"/>
+        <xs:attribute name="traversable" type="xs:string"/>
+        <xs:attribute name="bind-traversable" type="xs:string"/>
+        <xs:attribute name="shouldCalcPreferredSize" type="xs:string"/>
+        <xs:attribute name="bind-shouldCalcPreferredSize" type="xs:string"/>
+        <xs:attribute name="shouldCalcPreferredSizeGroup" type="xs:string"/>
+        <xs:attribute name="bind-shouldCalcPreferredSizeGroup" type="xs:string"/>
+        <xs:attribute name="handlesInput" type="xs:string"/>
+        <xs:attribute name="bind-handlesInput" type="xs:string"/>
+        <xs:attribute name="focus" type="xs:string"/>
+        <xs:attribute name="bind-focus" type="xs:string"/>
+        <xs:attributeGroup ref="componentForm_-com_codename1_ui_Form-1" />
+        <xs:attribute name="animationMotion" type="xs:string"/>
+        <xs:attribute name="bind-animationMotion" type="xs:string"/>
+        <xs:attribute name="blockLead" type="xs:string"/>
+        <xs:attribute name="bind-blockLead" type="xs:string"/>
+        <xs:attribute name="ignorePointerEvents" type="xs:string"/>
+        <xs:attribute name="bind-ignorePointerEvents" type="xs:string"/>
+        <xs:attribute name="rippleEffect" type="xs:string"/>
+        <xs:attribute name="bind-rippleEffect" type="xs:string"/>
+        <xs:attribute name="inlineStylesTheme" type="xs:string"/>
+        <xs:attribute name="bind-inlineStylesTheme" type="xs:string"/>
+        <xs:attribute name="hideInLandscape" type="xs:string"/>
+        <xs:attribute name="bind-hideInLandscape" type="xs:string"/>
+        <xs:attribute name="scrollAnimationSpeed" type="xs:string"/>
+        <xs:attribute name="bind-scrollAnimationSpeed" type="xs:string"/>
+        <xs:attribute name="smoothScrolling" type="xs:string"/>
+        <xs:attribute name="bind-smoothScrolling" type="xs:string"/>
+        <xs:attribute name="disableSmoothScrolling" type="xs:string"/>
+        <xs:attribute name="bind-disableSmoothScrolling" type="xs:string"/>
+        <xs:attribute name="tensileDragEnabled" type="xs:string"/>
+        <xs:attribute name="bind-tensileDragEnabled" type="xs:string"/>
+        <xs:attributeGroup ref="style_-com_codename1_ui_plaf_Style-1" />
+        <xs:attributeGroup ref="pressedStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="pressedStyle" type="xs:string"/>
+        <xs:attribute name="bind-pressedStyle" type="xs:string"/>
+        <xs:attributeGroup ref="unselectedStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attributeGroup ref="selectedStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attributeGroup ref="disabledStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="unselectedStyle" type="xs:string"/>
+        <xs:attribute name="bind-unselectedStyle" type="xs:string"/>
+        <xs:attribute name="selectedStyle" type="xs:string"/>
+        <xs:attribute name="bind-selectedStyle" type="xs:string"/>
+        <xs:attribute name="disabledStyle" type="xs:string"/>
+        <xs:attribute name="bind-disabledStyle" type="xs:string"/>
+        <xs:attribute name="dragActivated" type="xs:string"/>
+        <xs:attribute name="bind-dragActivated" type="xs:string"/>
+        <xs:attribute name="cellRenderer" type="xs:string"/>
+        <xs:attribute name="bind-cellRenderer" type="xs:string"/>
+        <xs:attribute name="scrollVisible" type="xs:string"/>
+        <xs:attribute name="bind-scrollVisible" type="xs:string"/>
+        <xs:attribute name="isScrollVisible" type="xs:string"/>
+        <xs:attribute name="bind-isScrollVisible" type="xs:string"/>
+        <xs:attribute name="initialized" type="xs:string"/>
+        <xs:attribute name="bind-initialized" type="xs:string"/>
+        <xs:attribute name="nextFocusDown" type="xs:string"/>
+        <xs:attribute name="bind-nextFocusDown" type="xs:string"/>
+        <xs:attribute name="nextFocusUp" type="xs:string"/>
+        <xs:attribute name="bind-nextFocusUp" type="xs:string"/>
+        <xs:attribute name="nextFocusLeft" type="xs:string"/>
+        <xs:attribute name="bind-nextFocusLeft" type="xs:string"/>
+        <xs:attribute name="nextFocusRight" type="xs:string"/>
+        <xs:attribute name="bind-nextFocusRight" type="xs:string"/>
+        <xs:attribute name="enabled" type="xs:string"/>
+        <xs:attribute name="bind-enabled" type="xs:string"/>
+        <xs:attribute name="name" type="xs:string"/>
+        <xs:attribute name="bind-name" type="xs:string"/>
+        <xs:attribute name="rtl" type="xs:string"/>
+        <xs:attribute name="bind-rtl" type="xs:string"/>
+        <xs:attribute name="tactileTouch" type="xs:string"/>
+        <xs:attribute name="bind-tactileTouch" type="xs:string"/>
+        <xs:attribute name="lightweightMode" type="xs:string"/>
+        <xs:attribute name="bind-lightweightMode" type="xs:string"/>
+        <xs:attribute name="snapToGrid" type="xs:string"/>
+        <xs:attribute name="bind-snapToGrid" type="xs:string"/>
+        <xs:attribute name="flatten" type="xs:string"/>
+        <xs:attribute name="bind-flatten" type="xs:string"/>
+        <xs:attribute name="tensileLength" type="xs:string"/>
+        <xs:attribute name="bind-tensileLength" type="xs:string"/>
+        <xs:attribute name="hintLabelImpl" type="xs:string"/>
+        <xs:attribute name="bind-hintLabelImpl" type="xs:string"/>
+        <xs:attribute name="grabsPointerEvents" type="xs:string"/>
+        <xs:attribute name="bind-grabsPointerEvents" type="xs:string"/>
+        <xs:attribute name="scrollOpacityChangeSpeed" type="xs:string"/>
+        <xs:attribute name="bind-scrollOpacityChangeSpeed" type="xs:string"/>
+        <xs:attribute name="alwaysTensile" type="xs:string"/>
+        <xs:attribute name="bind-alwaysTensile" type="xs:string"/>
+        <xs:attribute name="draggable" type="xs:string"/>
+        <xs:attribute name="bind-draggable" type="xs:string"/>
+        <xs:attribute name="dropTarget" type="xs:string"/>
+        <xs:attribute name="bind-dropTarget" type="xs:string"/>
+        <xs:attribute name="hideInPortrait" type="xs:string"/>
+        <xs:attribute name="bind-hideInPortrait" type="xs:string"/>
+        <xs:attribute name="cloudBoundProperty" type="xs:string"/>
+        <xs:attribute name="bind-cloudBoundProperty" type="xs:string"/>
+        <xs:attribute name="cloudDestinationProperty" type="xs:string"/>
+        <xs:attribute name="bind-cloudDestinationProperty" type="xs:string"/>
+        <xs:attribute name="hidden" type="xs:string"/>
+        <xs:attribute name="bind-hidden" type="xs:string"/>
+        <xs:attribute name="componentState" type="xs:string"/>
+        <xs:attribute name="bind-componentState" type="xs:string"/>
+        <xs:attribute name="tooltip" type="xs:string"/>
+        <xs:attribute name="bind-tooltip" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_Component-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Component">
+        <xs:attribute name="addAttribute" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>

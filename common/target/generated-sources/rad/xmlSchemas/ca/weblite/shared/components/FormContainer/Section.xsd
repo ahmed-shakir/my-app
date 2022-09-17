@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+  <xs:complexType name="ca_weblite_shared_components_FormContainer_Section">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="columns" type="xs:string"/>
+        <xs:attribute name="bind-columns" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ca_weblite_shared_components_FormContainer_Section-impl">
+    <xs:complexContent>
+      <xs:extension base="ca_weblite_shared_components_FormContainer_Section">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>

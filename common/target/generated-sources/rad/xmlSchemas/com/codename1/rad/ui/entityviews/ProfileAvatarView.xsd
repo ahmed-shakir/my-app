@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_rad_ui_entityviews_ProfileAvatarView">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_AbstractEntityView">
+        <xs:attribute name="icon" type="xs:string"/>
+        <xs:attribute name="bind-icon" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_rad_ui_entityviews_ProfileAvatarView-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_entityviews_ProfileAvatarView">
+        <xs:attribute name="size" type="xs:string"/>
+        <xs:attribute name="nameTag" type="xs:string"/>
+        <xs:attribute name="iconTag" type="xs:string"/>
+        <xs:attribute name="node" type="xs:string"/>
+        <xs:attribute name="entity" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>

@@ -1,0 +1,67 @@
+====
+requireAttributeGroup titleStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup dialogStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup titleStyle.:java.lang.Object:1
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_Dialog">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Form">
+        <xs:attribute name="defaultDisposeWhenPointerOutOfBounds" type="xs:string"/>
+        <xs:attribute name="bind-defaultDisposeWhenPointerOutOfBounds" type="xs:string"/>
+        <xs:attribute name="previousForm" type="xs:string"/>
+        <xs:attribute name="bind-previousForm" type="xs:string"/>
+        <xs:attributeGroup ref="titleStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="layout" type="xs:string"/>
+        <xs:attribute name="bind-layout" type="xs:string"/>
+        <xs:attribute name="title" type="xs:string"/>
+        <xs:attribute name="bind-title" type="xs:string"/>
+        <xs:attribute name="titleComponent" type="xs:string"/>
+        <xs:attribute name="bind-titleComponent" type="xs:string"/>
+        <xs:attribute name="dialogStyle" type="xs:string"/>
+        <xs:attribute name="bind-dialogStyle" type="xs:string"/>
+        <xs:attribute name="dialogUIID" type="xs:string"/>
+        <xs:attribute name="bind-dialogUIID" type="xs:string"/>
+        <xs:attributeGroup ref="dialogStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="timeout" type="xs:string"/>
+        <xs:attribute name="bind-timeout" type="xs:string"/>
+        <xs:attribute name="scrollable" type="xs:string"/>
+        <xs:attribute name="bind-scrollable" type="xs:string"/>
+        <xs:attribute name="menu" type="xs:string"/>
+        <xs:attribute name="bind-menu" type="xs:string"/>
+        <xs:attribute name="disposed" type="xs:string"/>
+        <xs:attribute name="bind-disposed" type="xs:string"/>
+        <xs:attribute name="autoDispose" type="xs:string"/>
+        <xs:attribute name="bind-autoDispose" type="xs:string"/>
+        <xs:attribute name="defaultDialogPosition" type="xs:string"/>
+        <xs:attribute name="bind-defaultDialogPosition" type="xs:string"/>
+        <xs:attribute name="dialogType" type="xs:string"/>
+        <xs:attribute name="bind-dialogType" type="xs:string"/>
+        <xs:attribute name="defaultDialogType" type="xs:string"/>
+        <xs:attribute name="bind-defaultDialogType" type="xs:string"/>
+        <xs:attribute name="autoAdjustDialogSize" type="xs:string"/>
+        <xs:attribute name="bind-autoAdjustDialogSize" type="xs:string"/>
+        <xs:attribute name="disableStaticDialogScrolling" type="xs:string"/>
+        <xs:attribute name="bind-disableStaticDialogScrolling" type="xs:string"/>
+        <xs:attribute name="commandsAsButtons" type="xs:string"/>
+        <xs:attribute name="bind-commandsAsButtons" type="xs:string"/>
+        <xs:attribute name="disposeWhenPointerOutOfBounds" type="xs:string"/>
+        <xs:attribute name="bind-disposeWhenPointerOutOfBounds" type="xs:string"/>
+        <xs:attribute name="dialogPosition" type="xs:string"/>
+        <xs:attribute name="bind-dialogPosition" type="xs:string"/>
+        <xs:attribute name="popupDirectionBiasPortrait" type="xs:string"/>
+        <xs:attribute name="bind-popupDirectionBiasPortrait" type="xs:string"/>
+        <xs:attribute name="blurBackgroundRadius" type="xs:string"/>
+        <xs:attribute name="bind-blurBackgroundRadius" type="xs:string"/>
+        <xs:attribute name="defaultBlurBackgroundRadius" type="xs:string"/>
+        <xs:attribute name="bind-defaultBlurBackgroundRadius" type="xs:string"/>
+        <xs:attribute name="uiidbyPopupPosition" type="xs:string"/>
+        <xs:attribute name="bind-uiidbyPopupPosition" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_Dialog-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Dialog"/>
+    </xs:complexContent>
+  </xs:complexType>

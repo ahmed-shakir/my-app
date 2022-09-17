@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_ScaleImageLabel">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Label">
+        <xs:attribute name="backgroundType" type="xs:string"/>
+        <xs:attribute name="bind-backgroundType" type="xs:string"/>
+        <xs:attribute name="icon" type="xs:string"/>
+        <xs:attribute name="bind-icon" type="xs:string"/>
+        <xs:attribute name="text" type="xs:string"/>
+        <xs:attribute name="bind-text" type="xs:string"/>
+        <xs:attribute name="uiid" type="xs:string"/>
+        <xs:attribute name="bind-uiid" type="xs:string"/>
+        <xs:attribute name="preferredH" type="xs:string"/>
+        <xs:attribute name="bind-preferredH" type="xs:string"/>
+        <xs:attribute name="preferredW" type="xs:string"/>
+        <xs:attribute name="bind-preferredW" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_ScaleImageLabel-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_ScaleImageLabel"/>
+    </xs:complexContent>
+  </xs:complexType>

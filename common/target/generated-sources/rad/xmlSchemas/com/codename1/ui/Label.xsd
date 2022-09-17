@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_Label">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Component">
+        <xs:attribute name="badgeText" type="xs:string"/>
+        <xs:attribute name="bind-badgeText" type="xs:string"/>
+        <xs:attribute name="badgeUIID" type="xs:string"/>
+        <xs:attribute name="bind-badgeUIID" type="xs:string"/>
+        <xs:attribute name="iconUIID" type="xs:string"/>
+        <xs:attribute name="bind-iconUIID" type="xs:string"/>
+        <xs:attribute name="materialIcon" type="xs:string"/>
+        <xs:attribute name="bind-materialIcon" type="xs:string"/>
+        <xs:attribute name="fontIcon" type="xs:string"/>
+        <xs:attribute name="bind-fontIcon" type="xs:string"/>
+        <xs:attribute name="uiid" type="xs:string"/>
+        <xs:attribute name="bind-uiid" type="xs:string"/>
+        <xs:attribute name="text" type="xs:string"/>
+        <xs:attribute name="bind-text" type="xs:string"/>
+        <xs:attribute name="icon" type="xs:string"/>
+        <xs:attribute name="bind-icon" type="xs:string"/>
+        <xs:attribute name="alignment" type="xs:string"/>
+        <xs:attribute name="bind-alignment" type="xs:string"/>
+        <xs:attribute name="verticalAlignment" type="xs:string"/>
+        <xs:attribute name="bind-verticalAlignment" type="xs:string"/>
+        <xs:attribute name="textPosition" type="xs:string"/>
+        <xs:attribute name="bind-textPosition" type="xs:string"/>
+        <xs:attribute name="gap" type="xs:string"/>
+        <xs:attribute name="bind-gap" type="xs:string"/>
+        <xs:attribute name="defaultGap" type="xs:string"/>
+        <xs:attribute name="bind-defaultGap" type="xs:string"/>
+        <xs:attribute name="maxAutoSize" type="xs:string"/>
+        <xs:attribute name="bind-maxAutoSize" type="xs:string"/>
+        <xs:attribute name="minAutoSize" type="xs:string"/>
+        <xs:attribute name="bind-minAutoSize" type="xs:string"/>
+        <xs:attribute name="shiftText" type="xs:string"/>
+        <xs:attribute name="bind-shiftText" type="xs:string"/>
+        <xs:attribute name="tickerEnabled" type="xs:string"/>
+        <xs:attribute name="bind-tickerEnabled" type="xs:string"/>
+        <xs:attribute name="endsWith3Points" type="xs:string"/>
+        <xs:attribute name="bind-endsWith3Points" type="xs:string"/>
+        <xs:attribute name="defaultTickerEnabled" type="xs:string"/>
+        <xs:attribute name="bind-defaultTickerEnabled" type="xs:string"/>
+        <xs:attribute name="mask" type="xs:string"/>
+        <xs:attribute name="bind-mask" type="xs:string"/>
+        <xs:attribute name="maskName" type="xs:string"/>
+        <xs:attribute name="bind-maskName" type="xs:string"/>
+        <xs:attribute name="shouldLocalize" type="xs:string"/>
+        <xs:attribute name="bind-shouldLocalize" type="xs:string"/>
+        <xs:attribute name="shiftMillimeters" type="xs:string"/>
+        <xs:attribute name="bind-shiftMillimeters" type="xs:string"/>
+        <xs:attribute name="showEvenIfBlank" type="xs:string"/>
+        <xs:attribute name="bind-showEvenIfBlank" type="xs:string"/>
+        <xs:attribute name="legacyRenderer" type="xs:string"/>
+        <xs:attribute name="bind-legacyRenderer" type="xs:string"/>
+        <xs:attribute name="autoSizeMode" type="xs:string"/>
+        <xs:attribute name="bind-autoSizeMode" type="xs:string"/>
+        <xs:attribute name="textSelectionEnabled" type="xs:string"/>
+        <xs:attribute name="bind-textSelectionEnabled" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_Label-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Label"/>
+    </xs:complexContent>
+  </xs:complexType>

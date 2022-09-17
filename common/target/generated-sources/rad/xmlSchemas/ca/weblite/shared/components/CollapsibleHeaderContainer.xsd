@@ -1,0 +1,24 @@
+====
+require ca.weblite.shared.components.CollapsibleHeaderContainer.CollapseMode
+====
+<?xml version="1.0"?>
+  <xs:complexType name="ca_weblite_shared_components_CollapsibleHeaderContainer">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="partialCollapseUIID" type="xs:string"/>
+        <xs:attribute name="bind-partialCollapseUIID" type="xs:string"/>
+        <xs:attribute name="fullCollapseUIID" type="xs:string"/>
+        <xs:attribute name="bind-fullCollapseUIID" type="xs:string"/>
+        <xs:attribute name="collapseMode" type="ca_weblite_shared_components_CollapsibleHeaderContainer_CollapseMode"/>
+        <xs:attribute name="bind-collapseMode" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ca_weblite_shared_components_CollapsibleHeaderContainer-impl">
+    <xs:complexContent>
+      <xs:extension base="ca_weblite_shared_components_CollapsibleHeaderContainer">
+        <xs:attribute name="titleBar" type="xs:string"/>
+        <xs:attribute name="scrollableComponent" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>

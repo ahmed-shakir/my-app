@@ -1,0 +1,100 @@
+====
+requireAttributeGroup componentForm.:com.codename1.ui.Form:1
+requireAttributeGroup titleStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup menuStyle.:com.codename1.ui.plaf.Style:1
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_Form">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="allowEnableLayoutOnPaint" type="xs:string"/>
+        <xs:attribute name="bind-allowEnableLayoutOnPaint" type="xs:string"/>
+        <xs:attribute name="enableCursors" type="xs:string"/>
+        <xs:attribute name="bind-enableCursors" type="xs:string"/>
+        <xs:attribute name="sourceCommand" type="xs:string"/>
+        <xs:attribute name="bind-sourceCommand" type="xs:string"/>
+        <xs:attribute name="currentInputDevice" type="xs:string"/>
+        <xs:attribute name="bind-currentInputDevice" type="xs:string"/>
+        <xs:attribute name="overrideInvisibleAreaUnderVKB" type="xs:string"/>
+        <xs:attribute name="bind-overrideInvisibleAreaUnderVKB" type="xs:string"/>
+        <xs:attribute name="formBottomPaddingEditingMode" type="xs:string"/>
+        <xs:attribute name="bind-formBottomPaddingEditingMode" type="xs:string"/>
+        <xs:attribute name="alwaysTensile" type="xs:string"/>
+        <xs:attribute name="bind-alwaysTensile" type="xs:string"/>
+        <xs:attribute name="uimanager" type="xs:string"/>
+        <xs:attribute name="bind-uimanager" type="xs:string"/>
+        <xs:attribute name="glassPane" type="xs:string"/>
+        <xs:attribute name="bind-glassPane" type="xs:string"/>
+        <xs:attribute name="titleStyle" type="xs:string"/>
+        <xs:attribute name="bind-titleStyle" type="xs:string"/>
+        <xs:attribute name="titleComponent" type="xs:string"/>
+        <xs:attribute name="bind-titleComponent" type="xs:string"/>
+        <xs:attributeGroup ref="menuStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attributeGroup ref="titleStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="draggedComponent" type="xs:string"/>
+        <xs:attribute name="bind-draggedComponent" type="xs:string"/>
+        <xs:attribute name="defaultCommand" type="xs:string"/>
+        <xs:attribute name="bind-defaultCommand" type="xs:string"/>
+        <xs:attribute name="clearCommand" type="xs:string"/>
+        <xs:attribute name="bind-clearCommand" type="xs:string"/>
+        <xs:attribute name="backCommand" type="xs:string"/>
+        <xs:attribute name="bind-backCommand" type="xs:string"/>
+        <xs:attribute name="bgImage" type="xs:string"/>
+        <xs:attribute name="bind-bgImage" type="xs:string"/>
+        <xs:attribute name="layout" type="xs:string"/>
+        <xs:attribute name="bind-layout" type="xs:string"/>
+        <xs:attribute name="title" type="xs:string"/>
+        <xs:attribute name="bind-title" type="xs:string"/>
+        <xs:attribute name="transitionInAnimator" type="xs:string"/>
+        <xs:attribute name="bind-transitionInAnimator" type="xs:string"/>
+        <xs:attribute name="transitionOutAnimator" type="xs:string"/>
+        <xs:attribute name="bind-transitionOutAnimator" type="xs:string"/>
+        <xs:attribute name="previousForm" type="xs:string"/>
+        <xs:attribute name="bind-previousForm" type="xs:string"/>
+        <xs:attribute name="smoothScrolling" type="xs:string"/>
+        <xs:attribute name="bind-smoothScrolling" type="xs:string"/>
+        <xs:attribute name="scrollAnimationSpeed" type="xs:string"/>
+        <xs:attribute name="bind-scrollAnimationSpeed" type="xs:string"/>
+        <xs:attributeGroup ref="componentForm_-com_codename1_ui_Form-1" />
+        <xs:attribute name="focusedInternal" type="xs:string"/>
+        <xs:attribute name="bind-focusedInternal" type="xs:string"/>
+        <xs:attribute name="focused" type="xs:string"/>
+        <xs:attribute name="bind-focused" type="xs:string"/>
+        <xs:attribute name="minimizeOnBack" type="xs:string"/>
+        <xs:attribute name="bind-minimizeOnBack" type="xs:string"/>
+        <xs:attribute name="pressedCmp" type="xs:string"/>
+        <xs:attribute name="bind-pressedCmp" type="xs:string"/>
+        <xs:attribute name="scrollableY" type="xs:string"/>
+        <xs:attribute name="bind-scrollableY" type="xs:string"/>
+        <xs:attribute name="scrollableX" type="xs:string"/>
+        <xs:attribute name="bind-scrollableX" type="xs:string"/>
+        <xs:attribute name="scrollVisible" type="xs:string"/>
+        <xs:attribute name="bind-scrollVisible" type="xs:string"/>
+        <xs:attribute name="cyclicFocus" type="xs:string"/>
+        <xs:attribute name="bind-cyclicFocus" type="xs:string"/>
+        <xs:attribute name="menuCellRenderer" type="xs:string"/>
+        <xs:attribute name="bind-menuCellRenderer" type="xs:string"/>
+        <xs:attribute name="rtl" type="xs:string"/>
+        <xs:attribute name="bind-rtl" type="xs:string"/>
+        <xs:attribute name="scrollable" type="xs:string"/>
+        <xs:attribute name="bind-scrollable" type="xs:string"/>
+        <xs:attribute name="visible" type="xs:string"/>
+        <xs:attribute name="bind-visible" type="xs:string"/>
+        <xs:attribute name="tintColor" type="xs:string"/>
+        <xs:attribute name="bind-tintColor" type="xs:string"/>
+        <xs:attribute name="menuBar" type="xs:string"/>
+        <xs:attribute name="bind-menuBar" type="xs:string"/>
+        <xs:attribute name="toolBar" type="xs:string"/>
+        <xs:attribute name="bind-toolBar" type="xs:string"/>
+        <xs:attribute name="focusScrolling" type="xs:string"/>
+        <xs:attribute name="bind-focusScrolling" type="xs:string"/>
+        <xs:attribute name="editOnShow" type="xs:string"/>
+        <xs:attribute name="bind-editOnShow" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_Form-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Form"/>
+    </xs:complexContent>
+  </xs:complexType>

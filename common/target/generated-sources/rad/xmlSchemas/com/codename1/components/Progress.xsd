@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_Progress">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Dialog">
+        <xs:attribute name="disposeOnCompletion" type="xs:string"/>
+        <xs:attribute name="bind-disposeOnCompletion" type="xs:string"/>
+        <xs:attribute name="autoShow" type="xs:string"/>
+        <xs:attribute name="bind-autoShow" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_Progress-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_Progress"/>
+    </xs:complexContent>
+  </xs:complexType>

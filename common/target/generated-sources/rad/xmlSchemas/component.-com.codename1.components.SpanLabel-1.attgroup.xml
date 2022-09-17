@@ -1,0 +1,40 @@
+  <xs:attributeGroup name="component_-com_codename1_components_SpanLabel-1">
+    <xs:attribute name="component.preferredW" type="xs:string"/>
+    <xs:attribute name="bind-component.preferredW" type="xs:string"/>
+    <xs:attribute name="component.uiid" type="xs:string"/>
+    <xs:attribute name="bind-component.uiid" type="xs:string"/>
+    <xs:attribute name="component.textUIID" type="xs:string"/>
+    <xs:attribute name="bind-component.textUIID" type="xs:string"/>
+    <xs:attributeGroup ref="component_textAllStyles_-com_codename1_ui_plaf_Style-0"/>
+    <xs:attributeGroup ref="component_textUnselectedStyle_-com_codename1_ui_plaf_Style-0"/>
+    <xs:attribute name="component.textUnselectedStyle" type="xs:string"/>
+    <xs:attribute name="bind-component.textUnselectedStyle" type="xs:string"/>
+    <xs:attributeGroup ref="component_textSelectedStyle_-com_codename1_ui_plaf_Style-0"/>
+    <xs:attribute name="component.textSelectedStyle" type="xs:string"/>
+    <xs:attribute name="bind-component.textSelectedStyle" type="xs:string"/>
+    <xs:attribute name="component.iconUIID" type="xs:string"/>
+    <xs:attribute name="bind-component.iconUIID" type="xs:string"/>
+    <xs:attribute name="component.text" type="xs:string"/>
+    <xs:attribute name="bind-component.text" type="xs:string"/>
+    <xs:attribute name="component.icon" type="xs:string"/>
+    <xs:attribute name="bind-component.icon" type="xs:string"/>
+    <xs:attribute name="component.iconValign" type="xs:string"/>
+    <xs:attribute name="bind-component.iconValign" type="xs:string"/>
+    <xs:attribute name="component.textBlockAlign" type="xs:string"/>
+    <xs:attribute name="bind-component.textBlockAlign" type="xs:string"/>
+    <xs:attribute name="component.iconPosition" type="xs:string"/>
+    <xs:attribute name="bind-component.iconPosition" type="xs:string"/>
+    <xs:attribute name="component.shouldLocalize" type="xs:string"/>
+    <xs:attribute name="bind-component.shouldLocalize" type="xs:string"/>
+    <xs:attribute name="component.textSelectionEnabled" type="xs:string"/>
+    <xs:attribute name="bind-component.textSelectionEnabled" type="xs:string"/>
+    <xs:attribute name="component.width" type="xs:string"/>
+    <xs:attribute name="bind-component.width" type="xs:string"/>
+    <xs:attribute name="component.gap" type="xs:string"/>
+    <xs:attribute name="bind-component.gap" type="xs:string"/>
+    <xs:attribute name="component.textPosition" type="xs:string"/>
+    <xs:attribute name="bind-component.textPosition" type="xs:string"/>
+    <xs:attribute name="component.materialIcon" type="xs:string"/>
+    <xs:attribute name="bind-component.materialIcon" type="xs:string"/>
+    <xs:attributeGroup ref="component_-com_codename1_ui_Container-1"/>
+  </xs:attributeGroup>

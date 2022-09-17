@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_HeavyButton">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Button">
+        <xs:attribute name="width" type="xs:string"/>
+        <xs:attribute name="bind-width" type="xs:string"/>
+        <xs:attribute name="height" type="xs:string"/>
+        <xs:attribute name="bind-height" type="xs:string"/>
+        <xs:attribute name="x" type="xs:string"/>
+        <xs:attribute name="bind-x" type="xs:string"/>
+        <xs:attribute name="y" type="xs:string"/>
+        <xs:attribute name="bind-y" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_HeavyButton-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_HeavyButton"/>
+    </xs:complexContent>
+  </xs:complexType>

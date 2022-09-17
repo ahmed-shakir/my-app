@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_MediaPlayer">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="hideNativeVideoControls" type="xs:string"/>
+        <xs:attribute name="bind-hideNativeVideoControls" type="xs:string"/>
+        <xs:attribute name="backIcon" type="xs:string"/>
+        <xs:attribute name="bind-backIcon" type="xs:string"/>
+        <xs:attribute name="fwdIcon" type="xs:string"/>
+        <xs:attribute name="bind-fwdIcon" type="xs:string"/>
+        <xs:attribute name="maxIcon" type="xs:string"/>
+        <xs:attribute name="bind-maxIcon" type="xs:string"/>
+        <xs:attribute name="pauseIcon" type="xs:string"/>
+        <xs:attribute name="bind-pauseIcon" type="xs:string"/>
+        <xs:attribute name="playIcon" type="xs:string"/>
+        <xs:attribute name="bind-playIcon" type="xs:string"/>
+        <xs:attribute name="dataSource" type="xs:string"/>
+        <xs:attribute name="bind-dataSource" type="xs:string"/>
+        <xs:attribute name="autoplay" type="xs:string"/>
+        <xs:attribute name="bind-autoplay" type="xs:string"/>
+        <xs:attribute name="loop" type="xs:string"/>
+        <xs:attribute name="bind-loop" type="xs:string"/>
+        <xs:attribute name="onTopMode" type="xs:string"/>
+        <xs:attribute name="bind-onTopMode" type="xs:string"/>
+        <xs:attribute name="seekBar" type="xs:string"/>
+        <xs:attribute name="bind-seekBar" type="xs:string"/>
+        <xs:attribute name="seekBarUIID" type="xs:string"/>
+        <xs:attribute name="bind-seekBarUIID" type="xs:string"/>
+        <xs:attribute name="maximize" type="xs:string"/>
+        <xs:attribute name="bind-maximize" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_MediaPlayer-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_MediaPlayer"/>
+    </xs:complexContent>
+  </xs:complexType>

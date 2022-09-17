@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+  <xs:complexType name="se_supernovait_my_AbstractLoginPage">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_AbstractEntityView">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="se_supernovait_my_AbstractLoginPage-impl">
+    <xs:complexContent>
+      <xs:extension base="se_supernovait_my_AbstractLoginPage"/>
+    </xs:complexContent>
+  </xs:complexType>

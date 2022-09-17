@@ -1,0 +1,7 @@
+  <xs:simpleType name="com_codename1_rad_ui_entityviews_Buttons_OverflowMenuStyle">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ActionSheet" />
+      <xs:enumeration value="PopupMenu" />
+      <xs:enumeration value="None" />
+    </xs:restriction>
+  </xs:simpleType>

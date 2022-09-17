@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_ComponentGroup">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="horizontal" type="xs:string"/>
+        <xs:attribute name="bind-horizontal" type="xs:string"/>
+        <xs:attribute name="elementUIID" type="xs:string"/>
+        <xs:attribute name="bind-elementUIID" type="xs:string"/>
+        <xs:attribute name="groupFlag" type="xs:string"/>
+        <xs:attribute name="bind-groupFlag" type="xs:string"/>
+        <xs:attribute name="forceGroup" type="xs:string"/>
+        <xs:attribute name="bind-forceGroup" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_ComponentGroup-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_ComponentGroup"/>
+    </xs:complexContent>
+  </xs:complexType>

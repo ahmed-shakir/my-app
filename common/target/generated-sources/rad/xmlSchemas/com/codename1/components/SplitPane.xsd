@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_SplitPane">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="dividerInset" type="xs:string"/>
+        <xs:attribute name="bind-dividerInset" type="xs:string"/>
+        <xs:attribute name="topOrLeftComponent" type="xs:string"/>
+        <xs:attribute name="bind-topOrLeftComponent" type="xs:string"/>
+        <xs:attribute name="top" type="xs:string"/>
+        <xs:attribute name="bind-top" type="xs:string"/>
+        <xs:attribute name="left" type="xs:string"/>
+        <xs:attribute name="bind-left" type="xs:string"/>
+        <xs:attribute name="bottomOrRightComponent" type="xs:string"/>
+        <xs:attribute name="bind-bottomOrRightComponent" type="xs:string"/>
+        <xs:attribute name="bottom" type="xs:string"/>
+        <xs:attribute name="bind-bottom" type="xs:string"/>
+        <xs:attribute name="right" type="xs:string"/>
+        <xs:attribute name="bind-right" type="xs:string"/>
+        <xs:attribute name="inset" type="xs:string"/>
+        <xs:attribute name="bind-inset" type="xs:string"/>
+        <xs:attribute name="preferredInset" type="xs:string"/>
+        <xs:attribute name="bind-preferredInset" type="xs:string"/>
+        <xs:attribute name="minInset" type="xs:string"/>
+        <xs:attribute name="bind-minInset" type="xs:string"/>
+        <xs:attribute name="maxInset" type="xs:string"/>
+        <xs:attribute name="bind-maxInset" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_SplitPane-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_SplitPane">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>

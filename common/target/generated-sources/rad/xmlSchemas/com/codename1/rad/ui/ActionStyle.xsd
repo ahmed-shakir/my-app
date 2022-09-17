@@ -1,0 +1,10 @@
+  <xs:simpleType name="com_codename1_rad_ui_ActionStyle">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="IconOnly" />
+      <xs:enumeration value="TextOnly" />
+      <xs:enumeration value="IconTop" />
+      <xs:enumeration value="IconBottom" />
+      <xs:enumeration value="IconLeft" />
+      <xs:enumeration value="IconRight" />
+    </xs:restriction>
+  </xs:simpleType>

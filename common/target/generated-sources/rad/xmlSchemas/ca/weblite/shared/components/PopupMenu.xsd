@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+  <xs:complexType name="ca_weblite_shared_components_PopupMenu">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_InteractionDialog">
+        <xs:attribute name="commandLabel" type="xs:string"/>
+        <xs:attribute name="bind-commandLabel" type="xs:string"/>
+        <xs:attribute name="materialIcon" type="xs:string"/>
+        <xs:attribute name="bind-materialIcon" type="xs:string"/>
+        <xs:attribute name="commandsLayout" type="xs:string"/>
+        <xs:attribute name="bind-commandsLayout" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ca_weblite_shared_components_PopupMenu-impl">
+    <xs:complexContent>
+      <xs:extension base="ca_weblite_shared_components_PopupMenu"/>
+    </xs:complexContent>
+  </xs:complexType>

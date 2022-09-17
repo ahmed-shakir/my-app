@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+  <xs:complexType name="java_lang_Object" mixed="true">
+    <xs:sequence><xs:any minOccurs="0" maxOccurs="unbounded" processContents="lax"/></xs:sequence>    <xs:attribute name="layout-constraint" type="xs:string"/>
+    <xs:attribute name="layout-rows" type="xs:string"/>
+    <xs:attribute name="layout-columns" type="xs:string"/>
+    <xs:attribute name="rad-transition" type="xs:string"/>
+    <xs:attribute name="rad-leadComponent" type="xs:string"/>
+    <xs:attribute name="rad-implements" type="xs:string"/>
+    <xs:attribute name="rad-href" type="xs:string"/>
+    <xs:attribute name="rad-href-trigger" type="xs:string"/>
+    <xs:attribute name="view-model" type="xs:string"/>
+    <xs:attribute name="view-controller" type="xs:string"/>
+    <xs:attribute name="rad-extends" type="xs:string"/>
+    <xs:attribute name="rad-model" type="xs:string"/>
+    <xs:attribute name="rad-var" type="xs:string"/>
+    <xs:attribute name="rad-property" type="xs:string"/>
+    <xs:attribute name="rad-condition" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="java_lang_Object-impl">
+    <xs:complexContent>
+      <xs:extension base="java_lang_Object"/>
+    </xs:complexContent>
+  </xs:complexType>

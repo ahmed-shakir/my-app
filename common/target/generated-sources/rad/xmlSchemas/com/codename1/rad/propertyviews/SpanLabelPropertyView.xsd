@@ -1,0 +1,29 @@
+====
+requireAttributeGroup component.:com.codename1.components.SpanLabel:1
+requireAttributeGroup component.textSelectedStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup component.textUnselectedStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup component.textAllStyles.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup component.:com.codename1.ui.Container:1
+requireAttributeGroup component.textUnselectedStyle.:java.lang.Object:0
+requireAttributeGroup component.textSelectedStyle.:java.lang.Object:0
+requireAttributeGroup component.textAllStyles.:java.lang.Object:0
+require com.codename1.rad.ui.builders.PropertyViewBuilder.DateFormatterEnum
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_rad_propertyviews_SpanLabelPropertyView">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_PropertyView">
+        <xs:attributeGroup ref="component_-com_codename1_components_SpanLabel-1" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_rad_propertyviews_SpanLabelPropertyView-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_propertyviews_SpanLabelPropertyView">
+        <xs:attribute name="spanLabel" type="xs:string"/>
+        <xs:attribute name="tag" type="xs:string"/>
+        <xs:attribute name="dateFormat" type="com_codename1_rad_ui_builders_PropertyViewBuilder_DateFormatterEnum"/>
+        <xs:attribute name="entity" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_FloatingHint">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_FloatingHint-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_FloatingHint"/>
+    </xs:complexContent>
+  </xs:complexType>

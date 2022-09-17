@@ -1,0 +1,42 @@
+====
+requireAttributeGroup monthViewUnSelectedStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup monthViewSelectedStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup monthViewSelectedStyle.:java.lang.Object:1
+requireAttributeGroup monthViewUnSelectedStyle.:java.lang.Object:1
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_Calendar">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="date" type="xs:string"/>
+        <xs:attribute name="bind-date" type="xs:string"/>
+        <xs:attribute name="selectedDate" type="xs:string"/>
+        <xs:attribute name="bind-selectedDate" type="xs:string"/>
+        <xs:attribute name="currentDate" type="xs:string"/>
+        <xs:attribute name="bind-currentDate" type="xs:string"/>
+        <xs:attribute name="timeZone" type="xs:string"/>
+        <xs:attribute name="bind-timeZone" type="xs:string"/>
+        <xs:attribute name="monthViewSelectedStyle" type="xs:string"/>
+        <xs:attribute name="bind-monthViewSelectedStyle" type="xs:string"/>
+        <xs:attribute name="monthViewUnSelectedStyle" type="xs:string"/>
+        <xs:attribute name="bind-monthViewUnSelectedStyle" type="xs:string"/>
+        <xs:attributeGroup ref="monthViewSelectedStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attributeGroup ref="monthViewUnSelectedStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="changesSelectedDateEnabled" type="xs:string"/>
+        <xs:attribute name="bind-changesSelectedDateEnabled" type="xs:string"/>
+        <xs:attribute name="twoDigitMode" type="xs:string"/>
+        <xs:attribute name="bind-twoDigitMode" type="xs:string"/>
+        <xs:attribute name="selectedDays" type="xs:string"/>
+        <xs:attribute name="bind-selectedDays" type="xs:string"/>
+        <xs:attribute name="selectedDaysUIID" type="xs:string"/>
+        <xs:attribute name="bind-selectedDaysUIID" type="xs:string"/>
+        <xs:attribute name="multipleSelectionEnabled" type="xs:string"/>
+        <xs:attribute name="bind-multipleSelectionEnabled" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_Calendar-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Calendar"/>
+    </xs:complexContent>
+  </xs:complexType>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+  <xs:complexType name="ca_weblite_shared_components_AsyncComponentWrapper">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ca_weblite_shared_components_AsyncComponentWrapper-impl">
+    <xs:complexContent>
+      <xs:extension base="ca_weblite_shared_components_AsyncComponentWrapper"/>
+    </xs:complexContent>
+  </xs:complexType>

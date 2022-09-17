@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_ImageViewer">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Component">
+        <xs:attribute name="allowScaleDown" type="xs:string"/>
+        <xs:attribute name="bind-allowScaleDown" type="xs:string"/>
+        <xs:attribute name="image" type="xs:string"/>
+        <xs:attribute name="bind-image" type="xs:string"/>
+        <xs:attribute name="imageNoReposition" type="xs:string"/>
+        <xs:attribute name="bind-imageNoReposition" type="xs:string"/>
+        <xs:attribute name="imageList" type="xs:string"/>
+        <xs:attribute name="bind-imageList" type="xs:string"/>
+        <xs:attribute name="animateZoom" type="xs:string"/>
+        <xs:attribute name="bind-animateZoom" type="xs:string"/>
+        <xs:attribute name="zoom" type="xs:string"/>
+        <xs:attribute name="bind-zoom" type="xs:string"/>
+        <xs:attribute name="swipePlaceholder" type="xs:string"/>
+        <xs:attribute name="bind-swipePlaceholder" type="xs:string"/>
+        <xs:attribute name="eagerLock" type="xs:string"/>
+        <xs:attribute name="bind-eagerLock" type="xs:string"/>
+        <xs:attribute name="cycleLeft" type="xs:string"/>
+        <xs:attribute name="bind-cycleLeft" type="xs:string"/>
+        <xs:attribute name="cycleRight" type="xs:string"/>
+        <xs:attribute name="bind-cycleRight" type="xs:string"/>
+        <xs:attribute name="swipeThreshold" type="xs:string"/>
+        <xs:attribute name="bind-swipeThreshold" type="xs:string"/>
+        <xs:attribute name="imageInitialPosition" type="xs:string"/>
+        <xs:attribute name="bind-imageInitialPosition" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_ImageViewer-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_ImageViewer"/>
+    </xs:complexContent>
+  </xs:complexType>

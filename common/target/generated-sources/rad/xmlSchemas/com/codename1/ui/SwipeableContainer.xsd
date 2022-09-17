@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_SwipeableContainer">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="swipeActivated" type="xs:string"/>
+        <xs:attribute name="bind-swipeActivated" type="xs:string"/>
+        <xs:attribute name="previouslyOpened" type="xs:string"/>
+        <xs:attribute name="bind-previouslyOpened" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_SwipeableContainer-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_SwipeableContainer"/>
+    </xs:complexContent>
+  </xs:complexType>

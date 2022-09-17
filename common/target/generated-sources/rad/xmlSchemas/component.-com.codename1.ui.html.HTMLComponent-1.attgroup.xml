@@ -1,0 +1,37 @@
+  <xs:attributeGroup name="component_-com_codename1_ui_html_HTMLComponent-1">
+    <xs:attribute name="component.parser" type="xs:string"/>
+    <xs:attribute name="bind-component.parser" type="xs:string"/>
+    <xs:attribute name="component.maxThreads" type="xs:string"/>
+    <xs:attribute name="bind-component.maxThreads" type="xs:string"/>
+    <xs:attribute name="component.csssupportedMediaTypes" type="xs:string"/>
+    <xs:attribute name="bind-component.csssupportedMediaTypes" type="xs:string"/>
+    <xs:attribute name="component.requestHandler" type="xs:string"/>
+    <xs:attribute name="bind-component.requestHandler" type="xs:string"/>
+    <xs:attribute name="component.htmlcallback" type="xs:string"/>
+    <xs:attribute name="bind-component.htmlcallback" type="xs:string"/>
+    <xs:attribute name="component.showImages" type="xs:string"/>
+    <xs:attribute name="bind-component.showImages" type="xs:string"/>
+    <xs:attribute name="component.ignoreCSS" type="xs:string"/>
+    <xs:attribute name="bind-component.ignoreCSS" type="xs:string"/>
+    <xs:attribute name="component.bodyText" type="xs:string"/>
+    <xs:attribute name="bind-component.bodyText" type="xs:string"/>
+    <xs:attribute name="component.page" type="xs:string"/>
+    <xs:attribute name="bind-component.page" type="xs:string"/>
+    <xs:attribute name="component.pageStyle" type="xs:string"/>
+    <xs:attribute name="bind-component.pageStyle" type="xs:string"/>
+    <xs:attribute name="component.pageUIID" type="xs:string"/>
+    <xs:attribute name="bind-component.pageUIID" type="xs:string"/>
+    <xs:attribute name="component.page" type="xs:string"/>
+    <xs:attribute name="bind-component.page" type="xs:string"/>
+    <xs:attribute name="component.dom" type="xs:string"/>
+    <xs:attribute name="bind-component.dom" type="xs:string"/>
+    <xs:attribute name="component.eventsEnabled" type="xs:string"/>
+    <xs:attribute name="bind-component.eventsEnabled" type="xs:string"/>
+    <xs:attribute name="component.autoFocusOnFirstLink" type="xs:string"/>
+    <xs:attribute name="bind-component.autoFocusOnFirstLink" type="xs:string"/>
+    <xs:attribute name="component.pageStatus" type="xs:string"/>
+    <xs:attribute name="bind-component.pageStatus" type="xs:string"/>
+    <xs:attribute name="component.supressExceptions" type="xs:string"/>
+    <xs:attribute name="bind-component.supressExceptions" type="xs:string"/>
+    <xs:attributeGroup ref="component_-com_codename1_ui_Container-1"/>
+  </xs:attributeGroup>

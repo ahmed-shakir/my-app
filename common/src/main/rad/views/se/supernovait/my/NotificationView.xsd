@@ -9735,7 +9735,14 @@
       <xs:extension base="se_supernovait_my_NotificationPage"/>
     </xs:complexContent>
   </xs:complexType>
-  <xs:simpleType name="com_codename1_rad_ui_ActionStyle">
+  <xs:simpleType name="com_codename1_rad_ui_entityviews_Buttons_OverflowMenuStyle">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ActionSheet" />
+      <xs:enumeration value="PopupMenu" />
+      <xs:enumeration value="None" />
+    </xs:restriction>
+  </xs:simpleType>
+<xs:simpleType name="com_codename1_rad_ui_ActionStyle">
     <xs:restriction base="xs:string">
       <xs:enumeration value="IconOnly" />
       <xs:enumeration value="TextOnly" />
@@ -9743,13 +9750,6 @@
       <xs:enumeration value="IconBottom" />
       <xs:enumeration value="IconLeft" />
       <xs:enumeration value="IconRight" />
-    </xs:restriction>
-  </xs:simpleType>
-<xs:simpleType name="com_codename1_rad_ui_entityviews_Buttons_OverflowMenuStyle">
-    <xs:restriction base="xs:string">
-      <xs:enumeration value="ActionSheet" />
-      <xs:enumeration value="PopupMenu" />
-      <xs:enumeration value="None" />
     </xs:restriction>
   </xs:simpleType>
 <xs:attributeGroup name="overflowActionTemplate_-java_lang_Object-1">
@@ -10388,6 +10388,81 @@
       <xs:extension base="com_codename1_ui_ComboBox"/>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="com_codename1_ui_tree_Tree">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="treeState" type="xs:string"/>
+        <xs:attribute name="bind-treeState" type="xs:string"/>
+        <xs:attribute name="multilineMode" type="xs:string"/>
+        <xs:attribute name="bind-multilineMode" type="xs:string"/>
+        <xs:attribute name="model" type="xs:string"/>
+        <xs:attribute name="bind-model" type="xs:string"/>
+        <xs:attribute name="folderIcon" type="xs:string"/>
+        <xs:attribute name="bind-folderIcon" type="xs:string"/>
+        <xs:attribute name="folderOpenIcon" type="xs:string"/>
+        <xs:attribute name="bind-folderOpenIcon" type="xs:string"/>
+        <xs:attribute name="nodeIcon" type="xs:string"/>
+        <xs:attribute name="bind-nodeIcon" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_tree_Tree-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_tree_Tree"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="java_lang_Object" mixed="true">
+    <xs:sequence><xs:any minOccurs="0" maxOccurs="unbounded" processContents="lax"/></xs:sequence>    <xs:attribute name="layout-constraint" type="xs:string"/>
+    <xs:attribute name="layout-rows" type="xs:string"/>
+    <xs:attribute name="layout-columns" type="xs:string"/>
+    <xs:attribute name="rad-transition" type="xs:string"/>
+    <xs:attribute name="rad-leadComponent" type="xs:string"/>
+    <xs:attribute name="rad-implements" type="xs:string"/>
+    <xs:attribute name="rad-href" type="xs:string"/>
+    <xs:attribute name="rad-href-trigger" type="xs:string"/>
+    <xs:attribute name="view-model" type="xs:string"/>
+    <xs:attribute name="view-controller" type="xs:string"/>
+    <xs:attribute name="rad-extends" type="xs:string"/>
+    <xs:attribute name="rad-model" type="xs:string"/>
+    <xs:attribute name="rad-var" type="xs:string"/>
+    <xs:attribute name="rad-property" type="xs:string"/>
+    <xs:attribute name="rad-condition" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="java_lang_Object-impl">
+    <xs:complexContent>
+      <xs:extension base="java_lang_Object"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_rad_ui_AbstractEntityView">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="bindOnPropertyChangeEvents" type="xs:string"/>
+        <xs:attribute name="bind-bindOnPropertyChangeEvents" type="xs:string"/>
+        <xs:attribute name="entity" type="xs:string"/>
+        <xs:attribute name="bind-entity" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_rad_ui_AbstractEntityView-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_AbstractEntityView"/>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_rad_ui_PropertyView">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="nextFocusLeft" type="xs:string"/>
+        <xs:attribute name="bind-nextFocusLeft" type="xs:string"/>
+        <xs:attribute name="nextFocusRight" type="xs:string"/>
+        <xs:attribute name="bind-nextFocusRight" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_rad_ui_PropertyView-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_PropertyView"/>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="com_codename1_ui_Form">
     <xs:complexContent>
       <xs:extension base="com_codename1_ui_Container">
@@ -10480,81 +10555,6 @@
   <xs:complexType name="com_codename1_ui_Form-impl">
     <xs:complexContent>
       <xs:extension base="com_codename1_ui_Form"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="com_codename1_rad_ui_PropertyView">
-    <xs:complexContent>
-      <xs:extension base="com_codename1_ui_Container">
-        <xs:attribute name="nextFocusLeft" type="xs:string"/>
-        <xs:attribute name="bind-nextFocusLeft" type="xs:string"/>
-        <xs:attribute name="nextFocusRight" type="xs:string"/>
-        <xs:attribute name="bind-nextFocusRight" type="xs:string"/>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="com_codename1_rad_ui_PropertyView-impl">
-    <xs:complexContent>
-      <xs:extension base="com_codename1_rad_ui_PropertyView"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="java_lang_Object" mixed="true">
-    <xs:sequence><xs:any minOccurs="0" maxOccurs="unbounded" processContents="lax"/></xs:sequence>    <xs:attribute name="layout-constraint" type="xs:string"/>
-    <xs:attribute name="layout-rows" type="xs:string"/>
-    <xs:attribute name="layout-columns" type="xs:string"/>
-    <xs:attribute name="rad-transition" type="xs:string"/>
-    <xs:attribute name="rad-leadComponent" type="xs:string"/>
-    <xs:attribute name="rad-implements" type="xs:string"/>
-    <xs:attribute name="rad-href" type="xs:string"/>
-    <xs:attribute name="rad-href-trigger" type="xs:string"/>
-    <xs:attribute name="view-model" type="xs:string"/>
-    <xs:attribute name="view-controller" type="xs:string"/>
-    <xs:attribute name="rad-extends" type="xs:string"/>
-    <xs:attribute name="rad-model" type="xs:string"/>
-    <xs:attribute name="rad-var" type="xs:string"/>
-    <xs:attribute name="rad-property" type="xs:string"/>
-    <xs:attribute name="rad-condition" type="xs:string"/>
-  </xs:complexType>
-  <xs:complexType name="java_lang_Object-impl">
-    <xs:complexContent>
-      <xs:extension base="java_lang_Object"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="com_codename1_rad_ui_AbstractEntityView">
-    <xs:complexContent>
-      <xs:extension base="com_codename1_ui_Container">
-        <xs:attribute name="bindOnPropertyChangeEvents" type="xs:string"/>
-        <xs:attribute name="bind-bindOnPropertyChangeEvents" type="xs:string"/>
-        <xs:attribute name="entity" type="xs:string"/>
-        <xs:attribute name="bind-entity" type="xs:string"/>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="com_codename1_rad_ui_AbstractEntityView-impl">
-    <xs:complexContent>
-      <xs:extension base="com_codename1_rad_ui_AbstractEntityView"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="com_codename1_ui_tree_Tree">
-    <xs:complexContent>
-      <xs:extension base="com_codename1_ui_Container">
-        <xs:attribute name="treeState" type="xs:string"/>
-        <xs:attribute name="bind-treeState" type="xs:string"/>
-        <xs:attribute name="multilineMode" type="xs:string"/>
-        <xs:attribute name="bind-multilineMode" type="xs:string"/>
-        <xs:attribute name="model" type="xs:string"/>
-        <xs:attribute name="bind-model" type="xs:string"/>
-        <xs:attribute name="folderIcon" type="xs:string"/>
-        <xs:attribute name="bind-folderIcon" type="xs:string"/>
-        <xs:attribute name="folderOpenIcon" type="xs:string"/>
-        <xs:attribute name="bind-folderOpenIcon" type="xs:string"/>
-        <xs:attribute name="nodeIcon" type="xs:string"/>
-        <xs:attribute name="bind-nodeIcon" type="xs:string"/>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="com_codename1_ui_tree_Tree-impl">
-    <xs:complexContent>
-      <xs:extension base="com_codename1_ui_tree_Tree"/>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="script" type="xs:string"/>

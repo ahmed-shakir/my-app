@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_PickerComponent">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_InputComponent">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_PickerComponent-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_PickerComponent"/>
+    </xs:complexContent>
+  </xs:complexType>

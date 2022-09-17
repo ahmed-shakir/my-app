@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_RSSReader">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_List">
+        <xs:attribute name="moreDescription" type="xs:string"/>
+        <xs:attribute name="bind-moreDescription" type="xs:string"/>
+        <xs:attribute name="moreTitle" type="xs:string"/>
+        <xs:attribute name="bind-moreTitle" type="xs:string"/>
+        <xs:attribute name="url" type="xs:string"/>
+        <xs:attribute name="bind-url" type="xs:string"/>
+        <xs:attribute name="iconPlaceholder" type="xs:string"/>
+        <xs:attribute name="bind-iconPlaceholder" type="xs:string"/>
+        <xs:attribute name="limit" type="xs:string"/>
+        <xs:attribute name="bind-limit" type="xs:string"/>
+        <xs:attribute name="blockList" type="xs:string"/>
+        <xs:attribute name="bind-blockList" type="xs:string"/>
+        <xs:attribute name="progressTitle" type="xs:string"/>
+        <xs:attribute name="bind-progressTitle" type="xs:string"/>
+        <xs:attribute name="targetContainer" type="xs:string"/>
+        <xs:attribute name="bind-targetContainer" type="xs:string"/>
+        <xs:attribute name="addBackToTaget" type="xs:string"/>
+        <xs:attribute name="bind-addBackToTaget" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_RSSReader-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_RSSReader"/>
+    </xs:complexContent>
+  </xs:complexType>

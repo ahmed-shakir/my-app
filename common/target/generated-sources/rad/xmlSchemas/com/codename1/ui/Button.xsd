@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_Button">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Label">
+        <xs:attribute name="capsTextDefault" type="xs:string"/>
+        <xs:attribute name="bind-capsTextDefault" type="xs:string"/>
+        <xs:attribute name="buttonRippleEffectDefault" type="xs:string"/>
+        <xs:attribute name="bind-buttonRippleEffectDefault" type="xs:string"/>
+        <xs:attribute name="command" type="xs:string"/>
+        <xs:attribute name="bind-command" type="xs:string"/>
+        <xs:attribute name="state" type="xs:string"/>
+        <xs:attribute name="bind-state" type="xs:string"/>
+        <xs:attribute name="rolloverPressedIcon" type="xs:string"/>
+        <xs:attribute name="bind-rolloverPressedIcon" type="xs:string"/>
+        <xs:attribute name="rolloverIcon" type="xs:string"/>
+        <xs:attribute name="bind-rolloverIcon" type="xs:string"/>
+        <xs:attribute name="pressedIcon" type="xs:string"/>
+        <xs:attribute name="bind-pressedIcon" type="xs:string"/>
+        <xs:attribute name="disabledIcon" type="xs:string"/>
+        <xs:attribute name="bind-disabledIcon" type="xs:string"/>
+        <xs:attribute name="alignment" type="xs:string"/>
+        <xs:attribute name="bind-alignment" type="xs:string"/>
+        <xs:attribute name="toggle" type="xs:string"/>
+        <xs:attribute name="bind-toggle" type="xs:string"/>
+        <xs:attribute name="uiid" type="xs:string"/>
+        <xs:attribute name="bind-uiid" type="xs:string"/>
+        <xs:attribute name="releaseRadius" type="xs:string"/>
+        <xs:attribute name="bind-releaseRadius" type="xs:string"/>
+        <xs:attribute name="autoRelease" type="xs:string"/>
+        <xs:attribute name="bind-autoRelease" type="xs:string"/>
+        <xs:attribute name="capsText" type="xs:string"/>
+        <xs:attribute name="bind-capsText" type="xs:string"/>
+        <xs:attribute name="text" type="xs:string"/>
+        <xs:attribute name="bind-text" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_Button-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Button"/>
+    </xs:complexContent>
+  </xs:complexType>

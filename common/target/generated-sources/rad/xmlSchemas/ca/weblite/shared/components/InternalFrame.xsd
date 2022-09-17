@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+  <xs:complexType name="ca_weblite_shared_components_InternalFrame">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="title" type="xs:string"/>
+        <xs:attribute name="bind-title" type="xs:string"/>
+        <xs:attribute name="mainContent" type="xs:string"/>
+        <xs:attribute name="bind-mainContent" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ca_weblite_shared_components_InternalFrame-impl">
+    <xs:complexContent>
+      <xs:extension base="ca_weblite_shared_components_InternalFrame"/>
+    </xs:complexContent>
+  </xs:complexType>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_WebBrowser">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="browserNavigationCallback" type="xs:string"/>
+        <xs:attribute name="bind-browserNavigationCallback" type="xs:string"/>
+        <xs:attribute name="url" type="xs:string"/>
+        <xs:attribute name="bind-url" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_WebBrowser-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_WebBrowser"/>
+    </xs:complexContent>
+  </xs:complexType>

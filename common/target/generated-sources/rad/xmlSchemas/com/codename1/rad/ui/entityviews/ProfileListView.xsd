@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_rad_ui_entityviews_ProfileListView">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_entityviews_EntityListView">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_rad_ui_entityviews_ProfileListView-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_entityviews_ProfileListView"/>
+    </xs:complexContent>
+  </xs:complexType>

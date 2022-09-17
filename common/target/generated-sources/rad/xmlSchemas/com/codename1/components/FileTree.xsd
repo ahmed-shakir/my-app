@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_FileTree">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_tree_Tree">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_FileTree-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_FileTree"/>
+    </xs:complexContent>
+  </xs:complexType>

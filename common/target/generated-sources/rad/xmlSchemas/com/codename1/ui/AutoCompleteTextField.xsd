@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_AutoCompleteTextField">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_TextField">
+        <xs:attribute name="parentText" type="xs:string"/>
+        <xs:attribute name="bind-parentText" type="xs:string"/>
+        <xs:attribute name="text" type="xs:string"/>
+        <xs:attribute name="bind-text" type="xs:string"/>
+        <xs:attribute name="completionRenderer" type="xs:string"/>
+        <xs:attribute name="bind-completionRenderer" type="xs:string"/>
+        <xs:attribute name="minimumLength" type="xs:string"/>
+        <xs:attribute name="bind-minimumLength" type="xs:string"/>
+        <xs:attribute name="minimumElementsShownInPopup" type="xs:string"/>
+        <xs:attribute name="bind-minimumElementsShownInPopup" type="xs:string"/>
+        <xs:attribute name="popupPosition" type="xs:string"/>
+        <xs:attribute name="bind-popupPosition" type="xs:string"/>
+        <xs:attribute name="completion" type="xs:string"/>
+        <xs:attribute name="bind-completion" type="xs:string"/>
+        <xs:attribute name="startsWithMode" type="xs:string"/>
+        <xs:attribute name="bind-startsWithMode" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_AutoCompleteTextField-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_AutoCompleteTextField"/>
+    </xs:complexContent>
+  </xs:complexType>

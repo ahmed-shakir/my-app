@@ -1,0 +1,53 @@
+====
+requireAttributeGroup style.:com.codename1.ui.plaf.Style:1
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_spinner_Picker">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Button">
+        <xs:attribute name="defaultUseLightweightPopup" type="xs:string"/>
+        <xs:attribute name="bind-defaultUseLightweightPopup" type="xs:string"/>
+        <xs:attribute name="startDate" type="xs:string"/>
+        <xs:attribute name="bind-startDate" type="xs:string"/>
+        <xs:attribute name="endDate" type="xs:string"/>
+        <xs:attribute name="bind-endDate" type="xs:string"/>
+        <xs:attribute name="useLightweightPopup" type="xs:string"/>
+        <xs:attribute name="bind-useLightweightPopup" type="xs:string"/>
+        <xs:attribute name="type" type="xs:string"/>
+        <xs:attribute name="bind-type" type="xs:string"/>
+        <xs:attribute name="date" type="xs:string"/>
+        <xs:attribute name="bind-date" type="xs:string"/>
+        <xs:attribute name="strings" type="xs:string"/>
+        <xs:attribute name="bind-strings" type="xs:string"/>
+        <xs:attribute name="selectedString" type="xs:string"/>
+        <xs:attribute name="bind-selectedString" type="xs:string"/>
+        <xs:attribute name="selectedStringIndex" type="xs:string"/>
+        <xs:attribute name="bind-selectedStringIndex" type="xs:string"/>
+        <xs:attribute name="time" type="xs:string"/>
+        <xs:attribute name="bind-time" type="xs:string"/>
+        <xs:attribute name="duration" type="xs:string"/>
+        <xs:attribute name="bind-duration" type="xs:string"/>
+        <xs:attribute name="minuteStep" type="xs:string"/>
+        <xs:attribute name="bind-minuteStep" type="xs:string"/>
+        <xs:attribute name="showMeridiem" type="xs:string"/>
+        <xs:attribute name="bind-showMeridiem" type="xs:string"/>
+        <xs:attribute name="renderingPrototype" type="xs:string"/>
+        <xs:attribute name="bind-renderingPrototype" type="xs:string"/>
+        <xs:attribute name="formatter" type="xs:string"/>
+        <xs:attribute name="bind-formatter" type="xs:string"/>
+        <xs:attribute name="preferredPopupWidth" type="xs:string"/>
+        <xs:attribute name="bind-preferredPopupWidth" type="xs:string"/>
+        <xs:attribute name="preferredPopupHeight" type="xs:string"/>
+        <xs:attribute name="bind-preferredPopupHeight" type="xs:string"/>
+        <xs:attributeGroup ref="style_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="suppressPaint" type="xs:string"/>
+        <xs:attribute name="bind-suppressPaint" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_spinner_Picker-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_spinner_Picker">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>

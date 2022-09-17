@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_OnOffSwitch">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="on" type="xs:string"/>
+        <xs:attribute name="bind-on" type="xs:string"/>
+        <xs:attribute name="off" type="xs:string"/>
+        <xs:attribute name="bind-off" type="xs:string"/>
+        <xs:attribute name="value" type="xs:string"/>
+        <xs:attribute name="bind-value" type="xs:string"/>
+        <xs:attribute name="componentState" type="xs:string"/>
+        <xs:attribute name="bind-componentState" type="xs:string"/>
+        <xs:attribute name="noTextMode" type="xs:string"/>
+        <xs:attribute name="bind-noTextMode" type="xs:string"/>
+        <xs:attribute name="switchOnImage" type="xs:string"/>
+        <xs:attribute name="bind-switchOnImage" type="xs:string"/>
+        <xs:attribute name="switchOffImage" type="xs:string"/>
+        <xs:attribute name="bind-switchOffImage" type="xs:string"/>
+        <xs:attribute name="switchMaskImage" type="xs:string"/>
+        <xs:attribute name="bind-switchMaskImage" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_OnOffSwitch-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_OnOffSwitch"/>
+    </xs:complexContent>
+  </xs:complexType>

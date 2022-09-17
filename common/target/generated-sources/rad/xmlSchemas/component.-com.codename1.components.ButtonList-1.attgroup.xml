@@ -1,0 +1,9 @@
+  <xs:attributeGroup name="component_-com_codename1_components_ButtonList-1">
+    <xs:attribute name="component.model" type="xs:string"/>
+    <xs:attribute name="bind-component.model" type="xs:string"/>
+    <xs:attribute name="component.layout" type="xs:string"/>
+    <xs:attribute name="bind-component.layout" type="xs:string"/>
+    <xs:attribute name="component.cellUIID" type="xs:string"/>
+    <xs:attribute name="bind-component.cellUIID" type="xs:string"/>
+    <xs:attributeGroup ref="component_-com_codename1_ui_Container-1"/>
+  </xs:attributeGroup>

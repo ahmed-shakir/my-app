@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_rad_ui_entityviews_WrapperEntityView">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_AbstractEntityView">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_rad_ui_entityviews_WrapperEntityView-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_entityviews_WrapperEntityView"/>
+    </xs:complexContent>
+  </xs:complexType>

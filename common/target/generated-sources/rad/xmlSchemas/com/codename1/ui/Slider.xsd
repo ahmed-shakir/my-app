@@ -1,0 +1,52 @@
+====
+requireAttributeGroup sliderFullSelectedStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup sliderEmptyUnselectedStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup sliderFullUnselectedStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup sliderEmptySelectedStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup style.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup sliderFullSelectedStyle.:java.lang.Object:1
+requireAttributeGroup sliderEmptySelectedStyle.:java.lang.Object:1
+requireAttributeGroup sliderFullUnselectedStyle.:java.lang.Object:1
+requireAttributeGroup sliderEmptyUnselectedStyle.:java.lang.Object:1
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_Slider">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Label">
+        <xs:attribute name="uiid" type="xs:string"/>
+        <xs:attribute name="bind-uiid" type="xs:string"/>
+        <xs:attribute name="infinite" type="xs:string"/>
+        <xs:attribute name="bind-infinite" type="xs:string"/>
+        <xs:attribute name="progress" type="xs:string"/>
+        <xs:attribute name="bind-progress" type="xs:string"/>
+        <xs:attribute name="progressInternal" type="xs:string"/>
+        <xs:attribute name="bind-progressInternal" type="xs:string"/>
+        <xs:attributeGroup ref="sliderFullUnselectedStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attributeGroup ref="sliderFullSelectedStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attributeGroup ref="sliderEmptyUnselectedStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attributeGroup ref="sliderEmptySelectedStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attributeGroup ref="style_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="vertical" type="xs:string"/>
+        <xs:attribute name="bind-vertical" type="xs:string"/>
+        <xs:attribute name="editable" type="xs:string"/>
+        <xs:attribute name="bind-editable" type="xs:string"/>
+        <xs:attribute name="increments" type="xs:string"/>
+        <xs:attribute name="bind-increments" type="xs:string"/>
+        <xs:attribute name="renderPercentageOnTop" type="xs:string"/>
+        <xs:attribute name="bind-renderPercentageOnTop" type="xs:string"/>
+        <xs:attribute name="renderValueOnTop" type="xs:string"/>
+        <xs:attribute name="bind-renderValueOnTop" type="xs:string"/>
+        <xs:attribute name="maxValue" type="xs:string"/>
+        <xs:attribute name="bind-maxValue" type="xs:string"/>
+        <xs:attribute name="minValue" type="xs:string"/>
+        <xs:attribute name="bind-minValue" type="xs:string"/>
+        <xs:attribute name="thumbImage" type="xs:string"/>
+        <xs:attribute name="bind-thumbImage" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_Slider-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Slider"/>
+    </xs:complexContent>
+  </xs:complexType>

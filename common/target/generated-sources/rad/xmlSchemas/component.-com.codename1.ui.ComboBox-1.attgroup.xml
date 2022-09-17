@@ -1,0 +1,17 @@
+  <xs:attributeGroup name="component_-com_codename1_ui_ComboBox-1">
+    <xs:attribute name="component.defaultActAsSpinnerDialog" type="xs:string"/>
+    <xs:attribute name="bind-component.defaultActAsSpinnerDialog" type="xs:string"/>
+    <xs:attribute name="component.comboBoxImage" type="xs:string"/>
+    <xs:attribute name="bind-component.comboBoxImage" type="xs:string"/>
+    <xs:attribute name="component.uiid" type="xs:string"/>
+    <xs:attribute name="bind-component.uiid" type="xs:string"/>
+    <xs:attribute name="component.selectedIndex" type="xs:string"/>
+    <xs:attribute name="bind-component.selectedIndex" type="xs:string"/>
+    <xs:attribute name="component.includeSelectCancel" type="xs:string"/>
+    <xs:attribute name="bind-component.includeSelectCancel" type="xs:string"/>
+    <xs:attribute name="component.defaultIncludeSelectCancel" type="xs:string"/>
+    <xs:attribute name="bind-component.defaultIncludeSelectCancel" type="xs:string"/>
+    <xs:attribute name="component.actAsSpinnerDialog" type="xs:string"/>
+    <xs:attribute name="bind-component.actAsSpinnerDialog" type="xs:string"/>
+    <xs:attributeGroup ref="component_-com_codename1_ui_List-1"/>
+  </xs:attributeGroup>

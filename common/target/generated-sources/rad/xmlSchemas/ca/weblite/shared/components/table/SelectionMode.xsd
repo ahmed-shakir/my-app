@@ -1,0 +1,8 @@
+  <xs:simpleType name="ca_weblite_shared_components_table_SelectionMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="RowOnly" />
+      <xs:enumeration value="ColumnOnly" />
+      <xs:enumeration value="SingleCell" />
+      <xs:enumeration value="CellRange" />
+    </xs:restriction>
+  </xs:simpleType>

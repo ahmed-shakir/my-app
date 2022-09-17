@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_ShareButton">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Button">
+        <xs:attribute name="textToShare" type="xs:string"/>
+        <xs:attribute name="bind-textToShare" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_ShareButton-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_ShareButton"/>
+    </xs:complexContent>
+  </xs:complexType>

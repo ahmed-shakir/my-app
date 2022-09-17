@@ -1,0 +1,33 @@
+====
+requireAttributeGroup actionTemplate.:com.codename1.rad.nodes.ActionNode.Builder:1
+requireAttributeGroup overflowActionTemplate.:com.codename1.rad.nodes.ActionNode.Builder:1
+requireAttributeGroup overflowButtonAction.:com.codename1.rad.nodes.ActionNode.Builder:1
+requireAttributeGroup overflowButtonAction.:java.lang.Object:1
+requireAttributeGroup actionTemplate.:java.lang.Object:1
+requireAttributeGroup overflowActionTemplate.:java.lang.Object:1
+require com.codename1.rad.ui.ActionStyle
+require com.codename1.rad.ui.entityviews.Buttons.OverflowMenuStyle
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_rad_ui_entityviews_Buttons">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_AbstractEntityView">
+        <xs:attribute name="align" type="xs:string"/>
+        <xs:attribute name="bind-align" type="xs:string"/>
+        <xs:attributeGroup ref="actionTemplate_-com_codename1_rad_nodes_ActionNode_Builder-1" />
+        <xs:attributeGroup ref="overflowActionTemplate_-com_codename1_rad_nodes_ActionNode_Builder-1" />
+        <xs:attributeGroup ref="overflowButtonAction_-com_codename1_rad_nodes_ActionNode_Builder-1" />
+        <xs:attribute name="actionCategory" type="xs:string"/>
+        <xs:attribute name="bind-actionCategory" type="xs:string"/>
+        <xs:attribute name="overflowMenuStyle" type="com_codename1_rad_ui_entityviews_Buttons_OverflowMenuStyle"/>
+        <xs:attribute name="bind-overflowMenuStyle" type="xs:string"/>
+        <xs:attribute name="limit" type="xs:string"/>
+        <xs:attribute name="bind-limit" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_rad_ui_entityviews_Buttons-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_entityviews_Buttons"/>
+    </xs:complexContent>
+  </xs:complexType>

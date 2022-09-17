@@ -1,0 +1,33 @@
+  <xs:attributeGroup name="component_-com_codename1_ui_Button-1">
+    <xs:attribute name="component.capsTextDefault" type="xs:string"/>
+    <xs:attribute name="bind-component.capsTextDefault" type="xs:string"/>
+    <xs:attribute name="component.buttonRippleEffectDefault" type="xs:string"/>
+    <xs:attribute name="bind-component.buttonRippleEffectDefault" type="xs:string"/>
+    <xs:attribute name="component.command" type="xs:string"/>
+    <xs:attribute name="bind-component.command" type="xs:string"/>
+    <xs:attribute name="component.state" type="xs:string"/>
+    <xs:attribute name="bind-component.state" type="xs:string"/>
+    <xs:attribute name="component.rolloverPressedIcon" type="xs:string"/>
+    <xs:attribute name="bind-component.rolloverPressedIcon" type="xs:string"/>
+    <xs:attribute name="component.rolloverIcon" type="xs:string"/>
+    <xs:attribute name="bind-component.rolloverIcon" type="xs:string"/>
+    <xs:attribute name="component.pressedIcon" type="xs:string"/>
+    <xs:attribute name="bind-component.pressedIcon" type="xs:string"/>
+    <xs:attribute name="component.disabledIcon" type="xs:string"/>
+    <xs:attribute name="bind-component.disabledIcon" type="xs:string"/>
+    <xs:attribute name="component.alignment" type="xs:string"/>
+    <xs:attribute name="bind-component.alignment" type="xs:string"/>
+    <xs:attribute name="component.toggle" type="xs:string"/>
+    <xs:attribute name="bind-component.toggle" type="xs:string"/>
+    <xs:attribute name="component.uiid" type="xs:string"/>
+    <xs:attribute name="bind-component.uiid" type="xs:string"/>
+    <xs:attribute name="component.releaseRadius" type="xs:string"/>
+    <xs:attribute name="bind-component.releaseRadius" type="xs:string"/>
+    <xs:attribute name="component.autoRelease" type="xs:string"/>
+    <xs:attribute name="bind-component.autoRelease" type="xs:string"/>
+    <xs:attribute name="component.capsText" type="xs:string"/>
+    <xs:attribute name="bind-component.capsText" type="xs:string"/>
+    <xs:attribute name="component.text" type="xs:string"/>
+    <xs:attribute name="bind-component.text" type="xs:string"/>
+    <xs:attributeGroup ref="component_-com_codename1_ui_Label-1"/>
+  </xs:attributeGroup>

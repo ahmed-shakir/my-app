@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_RadioButton">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Button">
+        <xs:attribute name="selectedImpl" type="xs:string"/>
+        <xs:attribute name="bind-selectedImpl" type="xs:string"/>
+        <xs:attribute name="selected" type="xs:string"/>
+        <xs:attribute name="bind-selected" type="xs:string"/>
+        <xs:attribute name="unselectAllowed" type="xs:string"/>
+        <xs:attribute name="bind-unselectAllowed" type="xs:string"/>
+        <xs:attribute name="buttonGroup" type="xs:string"/>
+        <xs:attribute name="bind-buttonGroup" type="xs:string"/>
+        <xs:attribute name="group" type="xs:string"/>
+        <xs:attribute name="bind-group" type="xs:string"/>
+        <xs:attribute name="oppositeSide" type="xs:string"/>
+        <xs:attribute name="bind-oppositeSide" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_RadioButton-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_RadioButton"/>
+    </xs:complexContent>
+  </xs:complexType>

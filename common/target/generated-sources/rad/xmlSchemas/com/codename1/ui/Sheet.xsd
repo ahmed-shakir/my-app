@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_Sheet">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="allowClose" type="xs:string"/>
+        <xs:attribute name="bind-allowClose" type="xs:string"/>
+        <xs:attribute name="position" type="xs:string"/>
+        <xs:attribute name="bind-position" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_Sheet-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Sheet"/>
+    </xs:complexContent>
+  </xs:complexType>

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_SpanMultiButton">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="linesTogetherMode" type="xs:string"/>
+        <xs:attribute name="bind-linesTogetherMode" type="xs:string"/>
+        <xs:attribute name="checkBox" type="xs:string"/>
+        <xs:attribute name="bind-checkBox" type="xs:string"/>
+        <xs:attribute name="command" type="xs:string"/>
+        <xs:attribute name="bind-command" type="xs:string"/>
+        <xs:attribute name="radioButton" type="xs:string"/>
+        <xs:attribute name="bind-radioButton" type="xs:string"/>
+        <xs:attribute name="selected" type="xs:string"/>
+        <xs:attribute name="bind-selected" type="xs:string"/>
+        <xs:attribute name="horizontalLayout" type="xs:string"/>
+        <xs:attribute name="bind-horizontalLayout" type="xs:string"/>
+        <xs:attribute name="invertFirstTwoEntries" type="xs:string"/>
+        <xs:attribute name="bind-invertFirstTwoEntries" type="xs:string"/>
+        <xs:attribute name="textLine1" type="xs:string"/>
+        <xs:attribute name="bind-textLine1" type="xs:string"/>
+        <xs:attribute name="nameLine1" type="xs:string"/>
+        <xs:attribute name="bind-nameLine1" type="xs:string"/>
+        <xs:attribute name="uiidline1" type="xs:string"/>
+        <xs:attribute name="bind-uiidline1" type="xs:string"/>
+        <xs:attribute name="textLine2" type="xs:string"/>
+        <xs:attribute name="bind-textLine2" type="xs:string"/>
+        <xs:attribute name="nameLine2" type="xs:string"/>
+        <xs:attribute name="bind-nameLine2" type="xs:string"/>
+        <xs:attribute name="uiidline2" type="xs:string"/>
+        <xs:attribute name="bind-uiidline2" type="xs:string"/>
+        <xs:attribute name="textLine3" type="xs:string"/>
+        <xs:attribute name="bind-textLine3" type="xs:string"/>
+        <xs:attribute name="nameLine3" type="xs:string"/>
+        <xs:attribute name="bind-nameLine3" type="xs:string"/>
+        <xs:attribute name="uiidline3" type="xs:string"/>
+        <xs:attribute name="bind-uiidline3" type="xs:string"/>
+        <xs:attribute name="textLine4" type="xs:string"/>
+        <xs:attribute name="bind-textLine4" type="xs:string"/>
+        <xs:attribute name="nameLine4" type="xs:string"/>
+        <xs:attribute name="bind-nameLine4" type="xs:string"/>
+        <xs:attribute name="uiidline4" type="xs:string"/>
+        <xs:attribute name="bind-uiidline4" type="xs:string"/>
+        <xs:attribute name="icon" type="xs:string"/>
+        <xs:attribute name="bind-icon" type="xs:string"/>
+        <xs:attribute name="emblem" type="xs:string"/>
+        <xs:attribute name="bind-emblem" type="xs:string"/>
+        <xs:attribute name="iconPosition" type="xs:string"/>
+        <xs:attribute name="bind-iconPosition" type="xs:string"/>
+        <xs:attribute name="emblemPosition" type="xs:string"/>
+        <xs:attribute name="bind-emblemPosition" type="xs:string"/>
+        <xs:attribute name="iconName" type="xs:string"/>
+        <xs:attribute name="bind-iconName" type="xs:string"/>
+        <xs:attribute name="iconUIID" type="xs:string"/>
+        <xs:attribute name="bind-iconUIID" type="xs:string"/>
+        <xs:attribute name="emblemName" type="xs:string"/>
+        <xs:attribute name="bind-emblemName" type="xs:string"/>
+        <xs:attribute name="emblemUIID" type="xs:string"/>
+        <xs:attribute name="bind-emblemUIID" type="xs:string"/>
+        <xs:attribute name="text" type="xs:string"/>
+        <xs:attribute name="bind-text" type="xs:string"/>
+        <xs:attribute name="group" type="xs:string"/>
+        <xs:attribute name="bind-group" type="xs:string"/>
+        <xs:attribute name="maskName" type="xs:string"/>
+        <xs:attribute name="bind-maskName" type="xs:string"/>
+        <xs:attribute name="shouldLocalize" type="xs:string"/>
+        <xs:attribute name="bind-shouldLocalize" type="xs:string"/>
+        <xs:attribute name="gap" type="xs:string"/>
+        <xs:attribute name="bind-gap" type="xs:string"/>
+        <xs:attribute name="textPosition" type="xs:string"/>
+        <xs:attribute name="bind-textPosition" type="xs:string"/>
+        <xs:attribute name="pressedIcon" type="xs:string"/>
+        <xs:attribute name="bind-pressedIcon" type="xs:string"/>
+        <xs:attribute name="disabledIcon" type="xs:string"/>
+        <xs:attribute name="bind-disabledIcon" type="xs:string"/>
+        <xs:attribute name="rolloverPressedIcon" type="xs:string"/>
+        <xs:attribute name="bind-rolloverPressedIcon" type="xs:string"/>
+        <xs:attribute name="rolloverIcon" type="xs:string"/>
+        <xs:attribute name="bind-rolloverIcon" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_SpanMultiButton-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_SpanMultiButton"/>
+    </xs:complexContent>
+  </xs:complexType>

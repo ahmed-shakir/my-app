@@ -1,0 +1,47 @@
+====
+requireAttributeGroup component.:com.codename1.rad.ui.image.ImageContainer:1
+requireAttributeGroup component.:com.codename1.ui.Container:1
+requireAttributeGroup component.:com.codename1.ui.Component:1
+requireAttributeGroup component.style.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup component.componentForm.:com.codename1.ui.Form:0
+requireAttributeGroup component.selectedStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup component.disabledStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup component.parent.:com.codename1.ui.Container:0
+requireAttributeGroup component.pressedStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup component.allStyles.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup component.:java.lang.Object:1
+requireAttributeGroup component.unselectedStyle.:com.codename1.ui.plaf.Style:0
+requireAttributeGroup component.selectedStyle.:java.lang.Object:0
+requireAttributeGroup component.componentForm.:com.codename1.ui.Container:0
+requireAttributeGroup component.allStyles.:java.lang.Object:0
+requireAttributeGroup component.pressedStyle.:java.lang.Object:0
+requireAttributeGroup component.disabledStyle.:java.lang.Object:0
+requireAttributeGroup component.parent.:com.codename1.ui.Component:0
+requireAttributeGroup component.style.:java.lang.Object:0
+requireAttributeGroup component.unselectedStyle.:java.lang.Object:0
+requireAttributeGroup component.parent.:java.lang.Object:0
+requireAttributeGroup component.componentForm.:com.codename1.ui.Component:0
+requireAttributeGroup component.componentForm.:java.lang.Object:0
+require com.codename1.rad.ui.builders.PropertyViewBuilder.DateFormatterEnum
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_rad_propertyviews_ImageContainerPropertyView">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_ui_PropertyView">
+        <xs:attributeGroup ref="component_-com_codename1_rad_ui_image_ImageContainer-1" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_rad_propertyviews_ImageContainerPropertyView-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_rad_propertyviews_ImageContainerPropertyView">
+        <xs:attribute name="imageContainer" type="xs:string"/>
+        <xs:attribute name="storageFile" type="xs:string"/>
+        <xs:attribute name="file" type="xs:string"/>
+        <xs:attribute name="aspect" type="xs:string"/>
+        <xs:attribute name="tag" type="xs:string"/>
+        <xs:attribute name="dateFormat" type="com_codename1_rad_ui_builders_PropertyViewBuilder_DateFormatterEnum"/>
+        <xs:attribute name="entity" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>

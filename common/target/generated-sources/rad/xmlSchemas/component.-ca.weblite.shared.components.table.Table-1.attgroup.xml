@@ -1,0 +1,15 @@
+  <xs:attributeGroup name="component_-ca_weblite_shared_components_table_Table-1">
+    <xs:attribute name="component.selectionMode" type="ca_weblite_shared_components_table_SelectionMode"/>
+    <xs:attribute name="bind-component.selectionMode" type="xs:string"/>
+    <xs:attribute name="component.selectionEnabled" type="xs:string"/>
+    <xs:attribute name="bind-component.selectionEnabled" type="xs:string"/>
+    <xs:attribute name="component.editable" type="xs:string"/>
+    <xs:attribute name="bind-component.editable" type="xs:string"/>
+    <xs:attribute name="component.model" type="xs:string"/>
+    <xs:attribute name="bind-component.model" type="xs:string"/>
+    <xs:attribute name="component.tableCellRenderer" type="xs:string"/>
+    <xs:attribute name="bind-component.tableCellRenderer" type="xs:string"/>
+    <xs:attribute name="component.tableCellEditor" type="xs:string"/>
+    <xs:attribute name="bind-component.tableCellEditor" type="xs:string"/>
+    <xs:attributeGroup ref="component_-com_codename1_ui_Container-1"/>
+  </xs:attributeGroup>

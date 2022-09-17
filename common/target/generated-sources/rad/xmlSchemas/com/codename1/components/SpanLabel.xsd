@@ -1,0 +1,57 @@
+====
+requireAttributeGroup textSelectedStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup textAllStyles.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup textUnselectedStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup textUnselectedStyle.:java.lang.Object:1
+requireAttributeGroup textAllStyles.:java.lang.Object:1
+requireAttributeGroup textSelectedStyle.:java.lang.Object:1
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_SpanLabel">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="preferredW" type="xs:string"/>
+        <xs:attribute name="bind-preferredW" type="xs:string"/>
+        <xs:attribute name="uiid" type="xs:string"/>
+        <xs:attribute name="bind-uiid" type="xs:string"/>
+        <xs:attribute name="textUIID" type="xs:string"/>
+        <xs:attribute name="bind-textUIID" type="xs:string"/>
+        <xs:attributeGroup ref="textAllStyles_-com_codename1_ui_plaf_Style-1" />
+        <xs:attributeGroup ref="textUnselectedStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="textUnselectedStyle" type="xs:string"/>
+        <xs:attribute name="bind-textUnselectedStyle" type="xs:string"/>
+        <xs:attributeGroup ref="textSelectedStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="textSelectedStyle" type="xs:string"/>
+        <xs:attribute name="bind-textSelectedStyle" type="xs:string"/>
+        <xs:attribute name="iconUIID" type="xs:string"/>
+        <xs:attribute name="bind-iconUIID" type="xs:string"/>
+        <xs:attribute name="text" type="xs:string"/>
+        <xs:attribute name="bind-text" type="xs:string"/>
+        <xs:attribute name="icon" type="xs:string"/>
+        <xs:attribute name="bind-icon" type="xs:string"/>
+        <xs:attribute name="iconValign" type="xs:string"/>
+        <xs:attribute name="bind-iconValign" type="xs:string"/>
+        <xs:attribute name="textBlockAlign" type="xs:string"/>
+        <xs:attribute name="bind-textBlockAlign" type="xs:string"/>
+        <xs:attribute name="iconPosition" type="xs:string"/>
+        <xs:attribute name="bind-iconPosition" type="xs:string"/>
+        <xs:attribute name="shouldLocalize" type="xs:string"/>
+        <xs:attribute name="bind-shouldLocalize" type="xs:string"/>
+        <xs:attribute name="textSelectionEnabled" type="xs:string"/>
+        <xs:attribute name="bind-textSelectionEnabled" type="xs:string"/>
+        <xs:attribute name="width" type="xs:string"/>
+        <xs:attribute name="bind-width" type="xs:string"/>
+        <xs:attribute name="gap" type="xs:string"/>
+        <xs:attribute name="bind-gap" type="xs:string"/>
+        <xs:attribute name="textPosition" type="xs:string"/>
+        <xs:attribute name="bind-textPosition" type="xs:string"/>
+        <xs:attribute name="materialIcon" type="xs:string"/>
+        <xs:attribute name="bind-materialIcon" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_SpanLabel-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_SpanLabel"/>
+    </xs:complexContent>
+  </xs:complexType>

@@ -1,0 +1,5 @@
+  <xs:attributeGroup name="component_-com_codename1_rad_ui_image_ImageContainer-1">
+    <xs:attribute name="component.aspectRatio" type="xs:string"/>
+    <xs:attribute name="bind-component.aspectRatio" type="xs:string"/>
+    <xs:attributeGroup ref="component_-com_codename1_ui_Container-1"/>
+  </xs:attributeGroup>

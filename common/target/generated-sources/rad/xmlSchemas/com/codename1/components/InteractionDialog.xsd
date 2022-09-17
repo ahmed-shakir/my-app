@@ -1,0 +1,33 @@
+====
+requireAttributeGroup dialogStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup dialogStyle.:java.lang.Object:1
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_InteractionDialog">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="disposeWhenPointerOutOfBounds" type="xs:string"/>
+        <xs:attribute name="bind-disposeWhenPointerOutOfBounds" type="xs:string"/>
+        <xs:attribute name="scrollable" type="xs:string"/>
+        <xs:attribute name="bind-scrollable" type="xs:string"/>
+        <xs:attribute name="layout" type="xs:string"/>
+        <xs:attribute name="bind-layout" type="xs:string"/>
+        <xs:attribute name="title" type="xs:string"/>
+        <xs:attribute name="bind-title" type="xs:string"/>
+        <xs:attribute name="animateShow" type="xs:string"/>
+        <xs:attribute name="bind-animateShow" type="xs:string"/>
+        <xs:attribute name="dialogUIID" type="xs:string"/>
+        <xs:attribute name="bind-dialogUIID" type="xs:string"/>
+        <xs:attributeGroup ref="dialogStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="repositionAnimation" type="xs:string"/>
+        <xs:attribute name="bind-repositionAnimation" type="xs:string"/>
+        <xs:attribute name="formMode" type="xs:string"/>
+        <xs:attribute name="bind-formMode" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_InteractionDialog-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_InteractionDialog"/>
+    </xs:complexContent>
+  </xs:complexType>

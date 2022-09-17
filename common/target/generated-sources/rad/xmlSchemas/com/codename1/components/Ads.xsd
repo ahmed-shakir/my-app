@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_Ads">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="ad" type="xs:string"/>
+        <xs:attribute name="bind-ad" type="xs:string"/>
+        <xs:attribute name="updateDuration" type="xs:string"/>
+        <xs:attribute name="bind-updateDuration" type="xs:string"/>
+        <xs:attribute name="height" type="xs:string"/>
+        <xs:attribute name="bind-height" type="xs:string"/>
+        <xs:attribute name="appID" type="xs:string"/>
+        <xs:attribute name="bind-appID" type="xs:string"/>
+        <xs:attribute name="gender" type="xs:string"/>
+        <xs:attribute name="bind-gender" type="xs:string"/>
+        <xs:attribute name="keywords" type="xs:string"/>
+        <xs:attribute name="bind-keywords" type="xs:string"/>
+        <xs:attribute name="age" type="xs:string"/>
+        <xs:attribute name="bind-age" type="xs:string"/>
+        <xs:attribute name="category" type="xs:string"/>
+        <xs:attribute name="bind-category" type="xs:string"/>
+        <xs:attribute name="location" type="xs:string"/>
+        <xs:attribute name="bind-location" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_Ads-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_Ads"/>
+    </xs:complexContent>
+  </xs:complexType>

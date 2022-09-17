@@ -1,0 +1,73 @@
+====
+requireAttributeGroup style.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup style.:java.lang.Object:1
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_TextArea">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Component">
+        <xs:attribute name="defaultValign" type="xs:string"/>
+        <xs:attribute name="bind-defaultValign" type="xs:string"/>
+        <xs:attribute name="constraint" type="xs:string"/>
+        <xs:attribute name="bind-constraint" type="xs:string"/>
+        <xs:attribute name="width" type="xs:string"/>
+        <xs:attribute name="bind-width" type="xs:string"/>
+        <xs:attribute name="text" type="xs:string"/>
+        <xs:attribute name="bind-text" type="xs:string"/>
+        <xs:attribute name="editable" type="xs:string"/>
+        <xs:attribute name="bind-editable" type="xs:string"/>
+        <xs:attribute name="maxSize" type="xs:string"/>
+        <xs:attribute name="bind-maxSize" type="xs:string"/>
+        <xs:attribute name="columns" type="xs:string"/>
+        <xs:attribute name="bind-columns" type="xs:string"/>
+        <xs:attribute name="rows" type="xs:string"/>
+        <xs:attribute name="bind-rows" type="xs:string"/>
+        <xs:attribute name="rowsGap" type="xs:string"/>
+        <xs:attribute name="bind-rowsGap" type="xs:string"/>
+        <xs:attribute name="suppressActionEvent" type="xs:string"/>
+        <xs:attribute name="bind-suppressActionEvent" type="xs:string"/>
+        <xs:attribute name="defaultMaxSize" type="xs:string"/>
+        <xs:attribute name="bind-defaultMaxSize" type="xs:string"/>
+        <xs:attribute name="growByContent" type="xs:string"/>
+        <xs:attribute name="bind-growByContent" type="xs:string"/>
+        <xs:attribute name="autoDegradeMaxSize" type="xs:string"/>
+        <xs:attribute name="bind-autoDegradeMaxSize" type="xs:string"/>
+        <xs:attribute name="unsupportedChars" type="xs:string"/>
+        <xs:attribute name="bind-unsupportedChars" type="xs:string"/>
+        <xs:attribute name="linesToScroll" type="xs:string"/>
+        <xs:attribute name="bind-linesToScroll" type="xs:string"/>
+        <xs:attribute name="widestChar" type="xs:string"/>
+        <xs:attribute name="bind-widestChar" type="xs:string"/>
+        <xs:attribute name="singleLineTextArea" type="xs:string"/>
+        <xs:attribute name="bind-singleLineTextArea" type="xs:string"/>
+        <xs:attribute name="alignment" type="xs:string"/>
+        <xs:attribute name="bind-alignment" type="xs:string"/>
+        <xs:attribute name="useStringWidth" type="xs:string"/>
+        <xs:attribute name="bind-useStringWidth" type="xs:string"/>
+        <xs:attribute name="hint" type="xs:string"/>
+        <xs:attribute name="bind-hint" type="xs:string"/>
+        <xs:attribute name="hintIcon" type="xs:string"/>
+        <xs:attribute name="bind-hintIcon" type="xs:string"/>
+        <xs:attribute name="hintLabelImpl" type="xs:string"/>
+        <xs:attribute name="bind-hintLabelImpl" type="xs:string"/>
+        <xs:attribute name="verticalAlignment" type="xs:string"/>
+        <xs:attribute name="bind-verticalAlignment" type="xs:string"/>
+        <xs:attribute name="growLimit" type="xs:string"/>
+        <xs:attribute name="bind-growLimit" type="xs:string"/>
+        <xs:attribute name="endsWith3Points" type="xs:string"/>
+        <xs:attribute name="bind-endsWith3Points" type="xs:string"/>
+        <xs:attributeGroup ref="style_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="doneListener" type="xs:string"/>
+        <xs:attribute name="bind-doneListener" type="xs:string"/>
+        <xs:attribute name="actAsLabel" type="xs:string"/>
+        <xs:attribute name="bind-actAsLabel" type="xs:string"/>
+        <xs:attribute name="textSelectionEnabled" type="xs:string"/>
+        <xs:attribute name="bind-textSelectionEnabled" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_TextArea-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_TextArea"/>
+    </xs:complexContent>
+  </xs:complexType>

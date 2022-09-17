@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_CheckBox">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Button">
+        <xs:attribute name="selected" type="xs:string"/>
+        <xs:attribute name="bind-selected" type="xs:string"/>
+        <xs:attribute name="oppositeSide" type="xs:string"/>
+        <xs:attribute name="bind-oppositeSide" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_CheckBox-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_CheckBox"/>
+    </xs:complexContent>
+  </xs:complexType>

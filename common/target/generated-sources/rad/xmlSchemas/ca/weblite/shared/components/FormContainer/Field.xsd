@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+  <xs:complexType name="ca_weblite_shared_components_FormContainer_Field">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="label" type="xs:string"/>
+        <xs:attribute name="bind-label" type="xs:string"/>
+        <xs:attribute name="description" type="xs:string"/>
+        <xs:attribute name="bind-description" type="xs:string"/>
+        <xs:attribute name="value" type="xs:string"/>
+        <xs:attribute name="bind-value" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ca_weblite_shared_components_FormContainer_Field-impl">
+    <xs:complexContent>
+      <xs:extension base="ca_weblite_shared_components_FormContainer_Field">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_PeerComponent">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Component">
+        <xs:attribute name="peerImage" type="xs:string"/>
+        <xs:attribute name="bind-peerImage" type="xs:string"/>
+        <xs:attribute name="nativePeer" type="xs:string"/>
+        <xs:attribute name="bind-nativePeer" type="xs:string"/>
+        <xs:attribute name="lightweightMode" type="xs:string"/>
+        <xs:attribute name="bind-lightweightMode" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_PeerComponent-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_PeerComponent"/>
+    </xs:complexContent>
+  </xs:complexType>

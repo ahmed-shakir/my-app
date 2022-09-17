@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_InputComponent">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="multiLineErrorMessage" type="xs:string"/>
+        <xs:attribute name="bind-multiLineErrorMessage" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_InputComponent-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_InputComponent"/>
+    </xs:complexContent>
+  </xs:complexType>

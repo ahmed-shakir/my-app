@@ -1,0 +1,11 @@
+  <xs:simpleType name="com_codename1_rad_ui_builders_PropertyViewBuilder_DateFormatterEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ShortDate" />
+      <xs:enumeration value="LongDate" />
+      <xs:enumeration value="Date" />
+      <xs:enumeration value="ShortDateTime" />
+      <xs:enumeration value="LongDateTime" />
+      <xs:enumeration value="DateTime" />
+      <xs:enumeration value="TimeAgo" />
+    </xs:restriction>
+  </xs:simpleType>

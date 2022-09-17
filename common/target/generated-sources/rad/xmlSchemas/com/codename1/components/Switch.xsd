@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_Switch">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Component">
+        <xs:attribute name="value" type="xs:string"/>
+        <xs:attribute name="bind-value" type="xs:string"/>
+        <xs:attribute name="componentState" type="xs:string"/>
+        <xs:attribute name="bind-componentState" type="xs:string"/>
+        <xs:attribute name="thumbOnImage" type="xs:string"/>
+        <xs:attribute name="bind-thumbOnImage" type="xs:string"/>
+        <xs:attribute name="thumbOffImage" type="xs:string"/>
+        <xs:attribute name="bind-thumbOffImage" type="xs:string"/>
+        <xs:attribute name="thumbDisabledImage" type="xs:string"/>
+        <xs:attribute name="bind-thumbDisabledImage" type="xs:string"/>
+        <xs:attribute name="trackOnImage" type="xs:string"/>
+        <xs:attribute name="bind-trackOnImage" type="xs:string"/>
+        <xs:attribute name="trackOffImage" type="xs:string"/>
+        <xs:attribute name="bind-trackOffImage" type="xs:string"/>
+        <xs:attribute name="trackDisabledImage" type="xs:string"/>
+        <xs:attribute name="bind-trackDisabledImage" type="xs:string"/>
+        <xs:attribute name="autoRelease" type="xs:string"/>
+        <xs:attribute name="bind-autoRelease" type="xs:string"/>
+        <xs:attribute name="releaseRadius" type="xs:string"/>
+        <xs:attribute name="bind-releaseRadius" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_Switch-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_Switch"/>
+    </xs:complexContent>
+  </xs:complexType>

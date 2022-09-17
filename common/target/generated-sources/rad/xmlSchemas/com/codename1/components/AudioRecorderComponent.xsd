@@ -1,0 +1,17 @@
+====
+require com.codename1.components.AudioRecorderComponent.RecorderState
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_AudioRecorderComponent">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="state" type="com_codename1_components_AudioRecorderComponent_RecorderState"/>
+        <xs:attribute name="bind-state" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_AudioRecorderComponent-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_AudioRecorderComponent"/>
+    </xs:complexContent>
+  </xs:complexType>

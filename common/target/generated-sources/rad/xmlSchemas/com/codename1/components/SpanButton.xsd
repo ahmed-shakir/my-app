@@ -1,0 +1,53 @@
+====
+requireAttributeGroup textAllStyles.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup textStyle.:com.codename1.ui.plaf.Style:1
+requireAttributeGroup textStyle.:java.lang.Object:1
+====
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_components_SpanButton">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="textUIID" type="xs:string"/>
+        <xs:attribute name="bind-textUIID" type="xs:string"/>
+        <xs:attribute name="uiid" type="xs:string"/>
+        <xs:attribute name="bind-uiid" type="xs:string"/>
+        <xs:attributeGroup ref="textAllStyles_-com_codename1_ui_plaf_Style-1" />
+        <xs:attributeGroup ref="textStyle_-com_codename1_ui_plaf_Style-1" />
+        <xs:attribute name="iconUIID" type="xs:string"/>
+        <xs:attribute name="bind-iconUIID" type="xs:string"/>
+        <xs:attribute name="text" type="xs:string"/>
+        <xs:attribute name="bind-text" type="xs:string"/>
+        <xs:attribute name="icon" type="xs:string"/>
+        <xs:attribute name="bind-icon" type="xs:string"/>
+        <xs:attribute name="iconPosition" type="xs:string"/>
+        <xs:attribute name="bind-iconPosition" type="xs:string"/>
+        <xs:attribute name="command" type="xs:string"/>
+        <xs:attribute name="bind-command" type="xs:string"/>
+        <xs:attribute name="shouldLocalize" type="xs:string"/>
+        <xs:attribute name="bind-shouldLocalize" type="xs:string"/>
+        <xs:attribute name="pressedIcon" type="xs:string"/>
+        <xs:attribute name="bind-pressedIcon" type="xs:string"/>
+        <xs:attribute name="rolloverIcon" type="xs:string"/>
+        <xs:attribute name="bind-rolloverIcon" type="xs:string"/>
+        <xs:attribute name="disabledIcon" type="xs:string"/>
+        <xs:attribute name="bind-disabledIcon" type="xs:string"/>
+        <xs:attribute name="autoRelease" type="xs:string"/>
+        <xs:attribute name="bind-autoRelease" type="xs:string"/>
+        <xs:attribute name="width" type="xs:string"/>
+        <xs:attribute name="bind-width" type="xs:string"/>
+        <xs:attribute name="gap" type="xs:string"/>
+        <xs:attribute name="bind-gap" type="xs:string"/>
+        <xs:attribute name="textPosition" type="xs:string"/>
+        <xs:attribute name="bind-textPosition" type="xs:string"/>
+        <xs:attribute name="rolloverPressedIcon" type="xs:string"/>
+        <xs:attribute name="bind-rolloverPressedIcon" type="xs:string"/>
+        <xs:attribute name="materialIcon" type="xs:string"/>
+        <xs:attribute name="bind-materialIcon" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_components_SpanButton-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_components_SpanButton"/>
+    </xs:complexContent>
+  </xs:complexType>

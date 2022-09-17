@@ -1,0 +1,6 @@
+  <xs:simpleType name="ca_weblite_shared_components_CollapsibleHeaderContainer_CollapseMode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="FullCollapse" />
+      <xs:enumeration value="PartialCollapse" />
+    </xs:restriction>
+  </xs:simpleType>

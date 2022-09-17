@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_ComboBox">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_List">
+        <xs:attribute name="defaultActAsSpinnerDialog" type="xs:string"/>
+        <xs:attribute name="bind-defaultActAsSpinnerDialog" type="xs:string"/>
+        <xs:attribute name="comboBoxImage" type="xs:string"/>
+        <xs:attribute name="bind-comboBoxImage" type="xs:string"/>
+        <xs:attribute name="uiid" type="xs:string"/>
+        <xs:attribute name="bind-uiid" type="xs:string"/>
+        <xs:attribute name="selectedIndex" type="xs:string"/>
+        <xs:attribute name="bind-selectedIndex" type="xs:string"/>
+        <xs:attribute name="includeSelectCancel" type="xs:string"/>
+        <xs:attribute name="bind-includeSelectCancel" type="xs:string"/>
+        <xs:attribute name="defaultIncludeSelectCancel" type="xs:string"/>
+        <xs:attribute name="bind-defaultIncludeSelectCancel" type="xs:string"/>
+        <xs:attribute name="actAsSpinnerDialog" type="xs:string"/>
+        <xs:attribute name="bind-actAsSpinnerDialog" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_ComboBox-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_ComboBox"/>
+    </xs:complexContent>
+  </xs:complexType>

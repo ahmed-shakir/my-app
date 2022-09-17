@@ -37,7 +37,7 @@ public class NotificationService {
     }
 
     public EntityList<Notification> getNotifications() {
-        return getMockedNotification();
+        return notifications;
     }
 
     private EntityList<Notification> getMockedNotification() { // TODO: remove when API is in place

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_codename1_ui_List">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Component">
+        <xs:attribute name="defaultIgnoreFocusComponentWhenUnfocused" type="xs:string"/>
+        <xs:attribute name="bind-defaultIgnoreFocusComponentWhenUnfocused" type="xs:string"/>
+        <xs:attribute name="defaultFireOnClick" type="xs:string"/>
+        <xs:attribute name="bind-defaultFireOnClick" type="xs:string"/>
+        <xs:attribute name="maxElementHeight" type="xs:string"/>
+        <xs:attribute name="bind-maxElementHeight" type="xs:string"/>
+        <xs:attribute name="minElementHeight" type="xs:string"/>
+        <xs:attribute name="bind-minElementHeight" type="xs:string"/>
+        <xs:attribute name="selectedIndex" type="xs:string"/>
+        <xs:attribute name="bind-selectedIndex" type="xs:string"/>
+        <xs:attribute name="selectedItem" type="xs:string"/>
+        <xs:attribute name="bind-selectedItem" type="xs:string"/>
+        <xs:attribute name="shouldCalcPreferredSize" type="xs:string"/>
+        <xs:attribute name="bind-shouldCalcPreferredSize" type="xs:string"/>
+        <xs:attribute name="model" type="xs:string"/>
+        <xs:attribute name="bind-model" type="xs:string"/>
+        <xs:attribute name="numericKeyActions" type="xs:string"/>
+        <xs:attribute name="bind-numericKeyActions" type="xs:string"/>
+        <xs:attribute name="commandList" type="xs:string"/>
+        <xs:attribute name="bind-commandList" type="xs:string"/>
+        <xs:attribute name="ignoreFocusComponentWhenUnfocused" type="xs:string"/>
+        <xs:attribute name="bind-ignoreFocusComponentWhenUnfocused" type="xs:string"/>
+        <xs:attribute name="mutableRendererBackgrounds" type="xs:string"/>
+        <xs:attribute name="bind-mutableRendererBackgrounds" type="xs:string"/>
+        <xs:attribute name="listSizeCalculationSampleCount" type="xs:string"/>
+        <xs:attribute name="bind-listSizeCalculationSampleCount" type="xs:string"/>
+        <xs:attribute name="longPointerPressActionEnabled" type="xs:string"/>
+        <xs:attribute name="bind-longPointerPressActionEnabled" type="xs:string"/>
+        <xs:attribute name="renderer" type="xs:string"/>
+        <xs:attribute name="bind-renderer" type="xs:string"/>
+        <xs:attribute name="listCellRenderer" type="xs:string"/>
+        <xs:attribute name="bind-listCellRenderer" type="xs:string"/>
+        <xs:attribute name="orientation" type="xs:string"/>
+        <xs:attribute name="bind-orientation" type="xs:string"/>
+        <xs:attribute name="handlesInput" type="xs:string"/>
+        <xs:attribute name="bind-handlesInput" type="xs:string"/>
+        <xs:attribute name="handlesInputParent" type="xs:string"/>
+        <xs:attribute name="bind-handlesInputParent" type="xs:string"/>
+        <xs:attribute name="inputOnFocus" type="xs:string"/>
+        <xs:attribute name="bind-inputOnFocus" type="xs:string"/>
+        <xs:attribute name="paintFocusBehindList" type="xs:string"/>
+        <xs:attribute name="bind-paintFocusBehindList" type="xs:string"/>
+        <xs:attribute name="itemGap" type="xs:string"/>
+        <xs:attribute name="bind-itemGap" type="xs:string"/>
+        <xs:attribute name="renderingPrototype" type="xs:string"/>
+        <xs:attribute name="bind-renderingPrototype" type="xs:string"/>
+        <xs:attribute name="fireOnClick" type="xs:string"/>
+        <xs:attribute name="bind-fireOnClick" type="xs:string"/>
+        <xs:attribute name="fixedSelection" type="xs:string"/>
+        <xs:attribute name="bind-fixedSelection" type="xs:string"/>
+        <xs:attribute name="scrollToSelected" type="xs:string"/>
+        <xs:attribute name="bind-scrollToSelected" type="xs:string"/>
+        <xs:attribute name="hint" type="xs:string"/>
+        <xs:attribute name="bind-hint" type="xs:string"/>
+        <xs:attribute name="hintIcon" type="xs:string"/>
+        <xs:attribute name="bind-hintIcon" type="xs:string"/>
+        <xs:attribute name="hintLabelImpl" type="xs:string"/>
+        <xs:attribute name="bind-hintLabelImpl" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_List-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_List"/>
+    </xs:complexContent>
+  </xs:complexType>

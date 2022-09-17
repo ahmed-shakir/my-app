@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<y rad-model="Notification" view-controller="NotificationController" xsi:noNamespaceSchemaLocation="NotificationView.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <import>
+        import se.supernovait.my.controllers.NotificationController;
+        import se.supernovait.my.models.Notification;
+        import se.supernovait.my.services.NotificationService;
+    </import>
+    <var name="notificationService" lookup="NotificationService" />
+    <define-category name="VIEW_NOTIFICATION" />
+
+    <border rad-leadComponent="#ShowDetailsButton">
+        <button layout-constraint="north" name="ShowDetailsButton" hidden="true" rad-var="button" rad-href="#NotificationDetailsPage{context.getEntity()}">
+            <bind-action category="VIEW_NOTIFICATION" />
+        </button>
+        <label layout-constraint="west" materialIcon="FontImage.MATERIAL_INFO" />
+        <radLabel layout-constraint="center" tag="Notification.title" rad-var="notification" component.uiid="MyH2" component.badgeUIID="MyBadge" />
+    </border>
+
+    <script>
+        notification.getComponent().setBadgeText(context.getEntity().isNew() ? " " : "");
+        /*button.addActionListener(e -> {
+            notificationService.openNotification(context.getEntity().getId()); // TODO: refresh view
+        });*/
+    </script>
+</y>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<border uiid="WelcomePage" xsi:noNamespaceSchemaLocation="WelcomePage.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>
+        <label text="Items manager" />
+    </title>
+
+    <y layout-constraint="center">
+        <spanLabel textUIID="WelcomeLabel">Make everything fun, experience an easier and better items manager.</spanLabel>
+        <button uiid="NewAccountButton" rad-href="#SignupPage">Create account</button>
+        <flow>
+            <label uiid="SmallLabel">Have an account already?</label>
+            <button uiid="SmallLink" rad-href="#LoginPage">Log in</button>
+        </flow>
+    </y>
+
+    <center layout-constraint="south">
+        <flow rad-leadComponent="#ShowInfoAction">
+            <button name="ShowInfoAction" materialIcon="FontImage.MATERIAL_INFO_OUTLINE" />
+        </flow>
+    </center>
+</border>

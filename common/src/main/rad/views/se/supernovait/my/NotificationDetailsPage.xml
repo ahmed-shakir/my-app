@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<y rad-model="Notification" xsi:noNamespaceSchemaLocation="NotificationDetailsPage.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <import>
+        import se.supernovait.my.models.Notification;
+        import se.supernovait.my.services.NotificationService;
+    </import>
+
+    <title>
+        <label text="Notification" />
+    </title>
+
+    <y>
+        <y>
+            <label text="Title:" />
+            <radSpanLabel tag="Notification.title" />
+
+            <label text="Body:" />
+            <radSpanLabel tag="Notification.body" />
+
+            <label text="Timestamp:" />
+            <radLabel tag="Notification.timestamp" dateFormat="ShortDate" />
+        </y>
+    </y>
+</y>

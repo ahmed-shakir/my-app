@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<border safeArea="true" view-controller="se.supernovait.my.controllers.LoginController" componentForm.formBottomPaddingEditingMode="true" xsi:noNamespaceSchemaLocation="LoginPage.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <define-category name="LOGIN" />
+    <!-- Properties for login -->
+    <define-tag name="phoneEmailOrUsername" />
+    <define-tag name="password" />
+    <!-- Properties for error messages -->
+    <define-tag name="phoneEmailOrUsernameErrorMessage" />
+    <define-tag name="passwordErrorMessage" />
+
+    <title>
+        <label iconUIID="SupernovaIcon" fontIcon="(char)0xe900" />
+    </title>
+
+    <y layout-constraint="center" uiid="SignupPageContent" scrollableY="true">
+        <label uiid="SignupPageTitle">Login to MY</label>
+        <radTextField
+                tag="phoneEmailOrUsername"
+                component.hint="Phone, email or username"
+                component.constraint="TextArea.USERNAME"
+        />
+        <radLabel tag="phoneEmailOrUsernameErrorMessage" bind-hidden="${phoneEmailOrUsernameErrorMessage}.isEmpty()" rad-transition="hidden 0.3s" component.uiid="FieldErrorMessage" />
+
+        <radTextField
+                tag="password"
+                component.hint="Password"
+                component.constraint="TextArea.PASSWORD"
+        />
+        <radLabel tag="passwordErrorMessage" bind-hidden="${passwordErrorMessage}.isEmpty()" rad-transition="hidden 0.3s" component.uiid="FieldErrorMessage" />
+
+        <flow>
+            <label uiid="SmallLabel">Don't have an account yet?</label>
+            <button uiid="SmallLink" rad-href="#SignupPage">Sign up</button>
+        </flow>
+    </y>
+
+    <border layout-constraint="south" uiid="SignupPageSouth">
+        <x layout-constraint="west">
+            <button rad-href="#ForgotPasswordPage">Forgot Password?</button>
+        </x>
+        <x layout-constraint="east">
+            <button text="Login" bind-enabled="!${phoneEmailOrUsername}.isEmpty()">
+                <bind-action category="LOGIN"/>
+            </button>
+        </x>
+    </border>
+</border>

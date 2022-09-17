@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<border safeArea="true" view-controller="se.supernovait.my.controllers.SignupController" xsi:noNamespaceSchemaLocation="SignupPage.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <define-category name="NEXT" />
+    <!-- Properties for signup -->
+    <define-tag name="firstname" value="Person.givenName" />
+    <define-tag name="lastname" value="Person.familyName" />
+    <define-tag name="personId" value="Person.identifier" />
+    <define-tag name="username" value="Event.actor" />
+    <define-tag name="phone" value="Person.telephone" />
+    <define-tag name="email" value="Person.email" />
+    <define-tag name="birthDate" value="Person.birthDate" type="java.util.Date" />
+    <!-- Properties for error messages -->
+    <define-tag name="firstnameErrorMessage" />
+    <define-tag name="lastnameErrorMessage" />
+    <define-tag name="personIdErrorMessage" />
+    <define-tag name="usernameErrorMessage" />
+    <define-tag name="phoneOrEmailErrorMessage" />
+    <define-tag name="birthDateErrorMessage" />
+
+    <!-- useEmail tracks if the user has opted to use their email address instead of phone. -->
+    <define-tag name="useEmail" type="boolean" />
+    <!-- editingPhoneOrEmail is to be set when the user presses the "Phone or Email" button initially. -->
+    <define-tag name="editingPhoneOrEmail" type="boolean" />
+    <!-- phoneFieldFocused tracks whether the phone field currently has focus -->
+    <define-tag name="phoneFieldFocused" type="boolean" />
+    <!-- emailFieldFocused tracks whether the email field currently has focus -->
+    <define-tag name="emailFieldFocused" type="boolean" />
+
+    <title>
+        <label iconUIID="SupernovaIcon" fontIcon="(char)0xe900" />
+    </title>
+
+    <y uiid="SignupPageContent" layout-constraint="center">
+        <label uiid="SignupPageTitle">Create your account</label>
+        <radTextField tag="firstname" component.hint="Firstname" />
+        <radLabel tag="firstnameErrorMessage" bind-hidden="${firstnameErrorMessage}.isEmpty()" rad-transition="hidden 0.3s" component.uiid="FieldErrorMessage" />
+        <radTextField tag="lastname" component.hint="Lastname" />
+        <radLabel tag="lastnameErrorMessage" bind-hidden="${lastnameErrorMessage}.isEmpty()" rad-transition="hidden 0.3s" component.uiid="FieldErrorMessage" />
+        <radTextField tag="personId" component.hint="Person ID (SSN)" />
+        <radLabel tag="personIdErrorMessage" bind-hidden="${personIdErrorMessage}.isEmpty()" rad-transition="hidden 0.3s" component.uiid="FieldErrorMessage" />
+        <radTextField tag="username" component.hint="Username" />
+        <radLabel tag="usernameErrorMessage" bind-hidden="${usernameErrorMessage}.isEmpty()" rad-transition="hidden 0.3s" component.uiid="FieldErrorMessage" />
+
+        <button uiid="PhoneOrEmailButton" text="Phone number or email address" bind-hidden="${editingPhoneOrEmail}.bool">
+            <script>
+                it.addActionListener(e -> {
+                e.consume();
+                it.getComponentForm().setFormBottomPaddingEditingMode(true);
+                ${editingPhoneOrEmail}.setBoolean(true);
+                if (${useEmail}.bool) {
+                emailTextField.getComponent().startEditingAsync();
+                } else {
+                phoneTextField.getComponent().startEditingAsync();
+                }
+                });
+            </script>
+        </button>
+        <radTextField
+                rad-var="phoneTextField"
+                tag="phone"
+                bind-component.focus="phoneFieldFocused"
+                bind-hidden="${useEmail}.bool || !${editingPhoneOrEmail}.bool"
+                component.hint="Phone number"
+                component.constraint="TextArea.PHONENUMBER"
+        />
+        <radTextField
+                rad-var="emailTextField"
+                tag="email"
+                bind-component.focus="emailFieldFocused"
+                bind-hidden="!${useEmail}.bool || !${editingPhoneOrEmail}.bool"
+                component.hint="Email address"
+                component.constraint="TextArea.EMAILADDR"
+        />
+        <radLabel tag="phoneOrEmailErrorMessage" bind-hidden="${phoneOrEmailErrorMessage}.isEmpty()" rad-transition="hidden 0.3s" component.uiid="FieldErrorMessage" />
+
+        <radDatePicker tag="birthDate" component.text="Date of birth" />
+        <radLabel tag="birthDateErrorMessage" bind-hidden="${birthDateErrorMessage}.isEmpty()" rad-transition="hidden 0.3s" component.uiid="FieldErrorMessage" />
+
+        <flow>
+            <label uiid="SmallLabel">Have an account already?</label>
+            <button uiid="SmallLink" rad-href="#LoginPage">Log in</button>
+        </flow>
+    </y>
+
+    <border layout-constraint="south" uiid="SignupPageSouth">
+        <x layout-constraint="west">
+            <button text="Use Email Address" bind-hidden="!${phoneFieldFocused}.bool">
+                <script>
+                    it.addActionListener(e -> {
+                        ${useEmail}.setBoolean(true);
+                        emailTextField.getComponent().startEditingAsync();
+                    });
+                </script>
+            </button>
+            <button text="Use Phone" bind-hidden="!${emailFieldFocused}.bool">
+                <script>
+                    it.addActionListener(e -> {
+                        ${useEmail}.setBoolean(false);
+                        phoneTextField.getComponent().startEditingAsync();
+                    });
+                </script>
+            </button>
+        </x>
+        <x layout-constraint="east">
+            <button text="Next">
+                <bind-action category="NEXT" />
+            </button>
+        </x>
+    </border>
+</border>

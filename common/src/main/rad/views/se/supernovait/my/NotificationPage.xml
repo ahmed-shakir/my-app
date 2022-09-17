@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<border uiid="WelcomePage" xsi:noNamespaceSchemaLocation="NotificationPage.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <import>
+        import se.supernovait.my.providers.NotificationsProvider;
+    </import>
+
+    <title>
+        <label text="Notifications" />
+    </title>
+
+    <entityList name="notifications" layout-constraint="center" provider="NotificationsProvider.class">
+        <row-template>
+            <notificationView view-model="rowModel" />
+        </row-template>
+    </entityList>
+</border>

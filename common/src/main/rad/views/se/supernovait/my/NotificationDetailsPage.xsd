@@ -10388,27 +10388,19 @@
       <xs:extension base="com_codename1_ui_ComboBox"/>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="com_codename1_ui_tree_Tree">
+  <xs:complexType name="com_codename1_rad_ui_PropertyView">
     <xs:complexContent>
       <xs:extension base="com_codename1_ui_Container">
-        <xs:attribute name="treeState" type="xs:string"/>
-        <xs:attribute name="bind-treeState" type="xs:string"/>
-        <xs:attribute name="multilineMode" type="xs:string"/>
-        <xs:attribute name="bind-multilineMode" type="xs:string"/>
-        <xs:attribute name="model" type="xs:string"/>
-        <xs:attribute name="bind-model" type="xs:string"/>
-        <xs:attribute name="folderIcon" type="xs:string"/>
-        <xs:attribute name="bind-folderIcon" type="xs:string"/>
-        <xs:attribute name="folderOpenIcon" type="xs:string"/>
-        <xs:attribute name="bind-folderOpenIcon" type="xs:string"/>
-        <xs:attribute name="nodeIcon" type="xs:string"/>
-        <xs:attribute name="bind-nodeIcon" type="xs:string"/>
+        <xs:attribute name="nextFocusLeft" type="xs:string"/>
+        <xs:attribute name="bind-nextFocusLeft" type="xs:string"/>
+        <xs:attribute name="nextFocusRight" type="xs:string"/>
+        <xs:attribute name="bind-nextFocusRight" type="xs:string"/>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="com_codename1_ui_tree_Tree-impl">
+  <xs:complexType name="com_codename1_rad_ui_PropertyView-impl">
     <xs:complexContent>
-      <xs:extension base="com_codename1_ui_tree_Tree"/>
+      <xs:extension base="com_codename1_rad_ui_PropertyView"/>
     </xs:complexContent>
   </xs:complexType>
   <xs:complexType name="java_lang_Object" mixed="true">
@@ -10433,6 +10425,29 @@
       <xs:extension base="java_lang_Object"/>
     </xs:complexContent>
   </xs:complexType>
+  <xs:complexType name="com_codename1_ui_tree_Tree">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_Container">
+        <xs:attribute name="treeState" type="xs:string"/>
+        <xs:attribute name="bind-treeState" type="xs:string"/>
+        <xs:attribute name="multilineMode" type="xs:string"/>
+        <xs:attribute name="bind-multilineMode" type="xs:string"/>
+        <xs:attribute name="model" type="xs:string"/>
+        <xs:attribute name="bind-model" type="xs:string"/>
+        <xs:attribute name="folderIcon" type="xs:string"/>
+        <xs:attribute name="bind-folderIcon" type="xs:string"/>
+        <xs:attribute name="folderOpenIcon" type="xs:string"/>
+        <xs:attribute name="bind-folderOpenIcon" type="xs:string"/>
+        <xs:attribute name="nodeIcon" type="xs:string"/>
+        <xs:attribute name="bind-nodeIcon" type="xs:string"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_codename1_ui_tree_Tree-impl">
+    <xs:complexContent>
+      <xs:extension base="com_codename1_ui_tree_Tree"/>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:complexType name="com_codename1_rad_ui_AbstractEntityView">
     <xs:complexContent>
       <xs:extension base="com_codename1_ui_Container">
@@ -10446,21 +10461,6 @@
   <xs:complexType name="com_codename1_rad_ui_AbstractEntityView-impl">
     <xs:complexContent>
       <xs:extension base="com_codename1_rad_ui_AbstractEntityView"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="com_codename1_rad_ui_PropertyView">
-    <xs:complexContent>
-      <xs:extension base="com_codename1_ui_Container">
-        <xs:attribute name="nextFocusLeft" type="xs:string"/>
-        <xs:attribute name="bind-nextFocusLeft" type="xs:string"/>
-        <xs:attribute name="nextFocusRight" type="xs:string"/>
-        <xs:attribute name="bind-nextFocusRight" type="xs:string"/>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="com_codename1_rad_ui_PropertyView-impl">
-    <xs:complexContent>
-      <xs:extension base="com_codename1_rad_ui_PropertyView"/>
     </xs:complexContent>
   </xs:complexType>
   <xs:complexType name="com_codename1_ui_Form">

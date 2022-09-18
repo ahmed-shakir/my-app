@@ -20,7 +20,8 @@ public class MyApp extends ApplicationController {
                 startEvent.setShowingForm(true);
 
                 AccountService accountService = lookup(AccountService.class);
-                new WelcomePageController(this).show();
+                //new WelcomePageController(this).show();
+                new NotificationPageController(this).show(); // TODO: Remove when login is in place
 
                 if (accountService.isLoggedIn()) {
                     new NotificationPageController(this).show();

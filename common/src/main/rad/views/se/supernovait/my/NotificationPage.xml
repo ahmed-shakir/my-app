@@ -13,4 +13,6 @@
             <notificationView view-model="rowModel" />
         </row-template>
     </entityList>
+
+    <button layout-constraint="south" text="Settings" materialIcon="FontImage.MATERIAL_SETTINGS" rad-href="#LanguageSettingsPage" />
 </border>

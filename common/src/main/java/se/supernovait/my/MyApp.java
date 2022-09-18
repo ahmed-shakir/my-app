@@ -5,6 +5,7 @@ import com.codename1.rad.controllers.ControllerEvent;
 import se.supernovait.my.providers.NotificationsProvider;
 import se.supernovait.my.services.AccountService;
 import se.supernovait.my.services.NotificationService;
+import se.supernovait.my.services.SettingsService;
 
 import static com.codename1.rad.util.NonNull.with;
 
@@ -36,6 +37,7 @@ public class MyApp extends ApplicationController {
         super.onStartController();
 
         addLookup(new AccountService());
+        addLookup(new SettingsService());
         addLookup(new NotificationService());
         addLookup(new NotificationsProvider());
     }
@@ -44,7 +46,7 @@ public class MyApp extends ApplicationController {
     public void destroy() {
         super.destroy();
 
-        // TODO: catch app close event to logout is activated in settings
+        // TODO: catch app close event to logout if activated in settings
         lookup(AccountService.class).logout();
     }
 }

@@ -27,8 +27,8 @@ AccountAvatarsTitleComponentText {
     --my-color-error: #B22222;
     --my-bg-primary: #FFF;
     --my-bg-secondary: #EEE;
-    --my-fg-primary: #071630;
-    --my-fg-secondary: #696969;
+    --my-fg-primary: #333;
+    --my-fg-secondary: #666;
 }
 
 /* *** GLOBAL STYLES *** */
@@ -87,6 +87,17 @@ Button.disabled {
     opacity: 0.5;
 }
 
+
+/* *** MY STYLES *** */
+MyPage {
+    cn1-derive: Container;
+    background-color: var(--my-bg-primary);
+}
+MySection {
+    cn1-derive: Container;
+    margin: 1rem 0.5rem;
+}
+
 MyH2 {
     cn1-derive: Label;
     font-family: "native:MainBold";
@@ -103,8 +114,33 @@ MyBadge {
    margin-top: 0.5rem;
 }
 
+MyCommonAction {
+    cn1-derive: Button;
+    font-family: "native:MainBold";
+    font-size: 1rem;
+    text-align: left;
+    color: var(--my-fg-primary);
+    border: none;
+    padding: 0.5rem 0.3rem;
+    margin: 0 11vw;
+}
+MySettingsMenuAction {
+    cn1-derive: MyCommonAction;
+    font-size: 0.7rem;
+    border: none;
+    border-bottom: 1px solid var(--my-fg-secondary);
+    padding: 0.7rem;
+    padding-left: 0;
+    margin: 0;
+}
+MySettingsAction {
+    cn1-derive: VipsSettingsMenuAction;
+    border: none;
+}
+
 /* *** WELCOME PAGE STYLES *** */
 WelcomePage {
+    color: var(--my-fg-primary);
     background-color: var(--my-bg-primary);
     padding: 3vw;
     margin: 0;

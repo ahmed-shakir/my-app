@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<y uiid="MyPage" view-controller="SettingsController" xsi:noNamespaceSchemaLocation="LanguageSettingsPage.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <import>
+        import se.supernovait.my.services.SettingsService;
+        import se.supernovait.my.controllers.SettingsController;
+    </import>
+    <var name="settingsService" lookup="SettingsService" />
+    <define-category name="LANGUAGE" />
+
+    <title>
+        <label text="Language settings" />
+    </title>
+
+    <y uiid="MySection">
+        <radioButton uiid="MySettingsAction" rad-var="sv" name="sv" text="Svenska">
+            <bind-action category="LANGUAGE" />
+        </radioButton>
+        <radioButton uiid="MySettingsAction" rad-var="en" name="en" text="English">
+            <bind-action category="LANGUAGE" />
+        </radioButton>
+    </y>
+
+    <script>
+        /* Add buttons to a ButtonGroup so only one can be selected at a time. */
+        new ButtonGroup(sv, en);
+        sv.setSelected(settingsService.isSelectedLanguage("sv"));
+        en.setSelected(settingsService.isSelectedLanguage("en"));
+    </script>
+</y>

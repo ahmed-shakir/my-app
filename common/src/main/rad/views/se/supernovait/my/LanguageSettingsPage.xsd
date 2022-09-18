@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<!-- jy1DMVsJd9Lxn44/3jANyw== -->
+<!-- 5etqNCqPUmdx4xatGiTQbg== -->
   <xs:complexType name="com_codename1_ui_Container">
     <xs:complexContent>
       <xs:extension base="com_codename1_ui_Component">

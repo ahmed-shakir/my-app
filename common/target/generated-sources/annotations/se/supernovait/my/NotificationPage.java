@@ -96,11 +96,11 @@ public class NotificationPage extends AbstractNotificationPage<NotificationPageM
         
         // xsi:noNamespaceSchemaLocation=NotificationPage.xsd
         
-        // 7 child nodes
+        // 9 child nodes
         // Create child components
         Container _tmp_old_currentContainer = _currentContainer;
         _currentContainer = _cmp;
-        // 7 child nodes
+        // 9 child nodes
         // Child tag import is type null
         // Child tag title is type com.codename1.rad.ui.beans.Title
         // Create bean com.codename1.rad.ui.beans.Title
@@ -108,6 +108,9 @@ public class NotificationPage extends AbstractNotificationPage<NotificationPageM
         // Child tag entityList is type com.codename1.rad.ui.entityviews.EntityListView
         // Add child component  with child tag entityList
         _cmp.addComponent(_builder.parseConstraint("center"), createComponent4());
+        // Child tag button is type com.codename1.ui.Button
+        // Add child component  with child tag button
+        _cmp.addComponent(_builder.parseConstraint("south"), createComponent7());
         _currentContainer = _tmp_old_currentContainer;
         // Set up bindings
         // Set up action Bindings
@@ -227,6 +230,34 @@ if (NotificationPage.this.rowView == null) {
         _currentContainer = _tmp_old_currentContainer;
         // Set up bindings
         // Set up action Bindings
+        return _cmp;
+    }
+    private com.codename1.ui.Button createComponent7() {
+        java.util.Map<String,String> attributes = new java.util.HashMap<String,String>();
+         attributes.put("layout-constraint", "south");
+         attributes.put("materialIcon", "FontImage.MATERIAL_SETTINGS");
+         attributes.put("rad-href", "#LanguageSettingsPage");
+         attributes.put("rad-id", "7");
+         attributes.put("text", "Settings");
+        com.codename1.ui.Button _cmp = new com.codename1.ui.Button();
+        com.codename1.rad.ui.builders.SimpleComponentDecorator<com.codename1.ui.Button> _builder = new com.codename1.rad.ui.builders.SimpleComponentDecorator<com.codename1.ui.Button>(_cmp, context, "button", attributes);
+        // text=Settings
+        _cmp.setText("Settings");
+        // materialIcon=FontImage.MATERIAL_SETTINGS
+        _cmp.setMaterialIcon(FontImage.MATERIAL_SETTINGS);
+        // 0 child nodes
+        // Create child components
+        // 0 child nodes
+        // Set up bindings
+        // Set up action Bindings
+        _cmp.addActionListener(event -> {
+            if (event.isConsumed()) return;
+        com.codename1.rad.controllers.FormController _rad_href_controller = (com.codename1.rad.controllers.FormController)getContext().getController().createObjectWithFactory(se.supernovait.my.ILanguageSettingsPageController.class, new Object[]{formController});
+        if (_rad_href_controller == null) {
+            _rad_href_controller = new se.supernovait.my.LanguageSettingsPageController(formController);
+        }
+        _rad_href_controller.show();
+        });
         return _cmp;
     }
     private com.codename1.rad.ui.beans.Title createBean2() {
